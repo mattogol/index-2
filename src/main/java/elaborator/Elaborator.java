@@ -11,7 +11,7 @@ import model.Team;
 public class Elaborator {
 
 	public static final int NUM_SQUADRE = 10;
-	public static final int GIORNATE_GIOCATE = 8;
+	public static final int GIORNATE_GIOCATE = 22;
 	
 	public static void main(String[] args) {
 		
@@ -19,7 +19,7 @@ public class Elaborator {
 //		w.setVisible(true);
 		
 		/** nomi squadra 
-		 * 															  |  0    |    1   |     2    |    3     |    4   |   5   |  6   |  7   |  8   |   9    |  */
+		 * 															  |  0     |    1      |     2      |    3        |    4     |   5     |  6     |  7     |  8     |   9       |  */
 		ArrayList<String> nomi = new ArrayList<String>(Arrays.asList("granchi","depcan","libertas","rispetto","stella","ureri","culi","orga","fiat","bonanza"));
 		
 		/** HM delle squadre */
