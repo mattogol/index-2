@@ -11,7 +11,7 @@ import model.Team;
 public class Elaborator {
 
 	public static final int NUM_SQUADRE = 10;
-	public static final int GIORNATE_GIOCATE = 32;
+	public static final int GIORNATE_GIOCATE = 33;
 	
 	public static void main(String[] args) {
 		
