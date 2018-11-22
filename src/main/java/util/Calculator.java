@@ -2,7 +2,7 @@ package util;
 
 import java.util.List;
 
-import model.Player;
+import model.Player2;
 
 public class Calculator {
 
@@ -19,7 +19,7 @@ public class Calculator {
 	public static final Integer GDV_MALUS = 0;
 	public static final Integer GDP_MALUS = 0;
 	
-	public static Float fantavote(Player player, int day) {
+	public static Float fantavote(Player2 player, int day) {
 		
 		Float toReturn = new Float(0);
 		toReturn += player.getVote().get(day-1);

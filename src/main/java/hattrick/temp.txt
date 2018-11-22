@@ -1,0 +1,683 @@
+
+Links: (56)
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047528&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Montefreddo City-MAGICO EMPOLI!">Montefreddo City&nbsp;-&nbsp;MAGICO EMPOLI!</a>
+Successfully loaded player info: Player [id=391028180, position=GK, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=386892937, position=BW_R, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=384206507, position=CD, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=390671240, position=BW_L, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=390045663, position=W_R, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=391255698, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=391364373, position=MID, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=391263840, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=391065848, position=W_L, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=391118548, position=FW, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=395713357, position=FW, attitude=null, speciality=UNPREDICTABLE, home=true]
+Successfully loaded player info: Player [id=388772077, position=GK, attitude=null, speciality=NOSPEC, home=false]
+Successfully loaded player info: Player [id=395771247, position=BW_R, attitude=null, speciality=NOSPEC, home=false]
+Successfully loaded player info: Player [id=381074088, position=CD, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=385342207, position=CD, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=388467887, position=BW_L, attitude=null, speciality=NOSPEC, home=false]
+Successfully loaded player info: Player [id=383602998, position=W_R, attitude=null, speciality=FAST, home=false]
+Successfully loaded player info: Player [id=377562953, position=MID, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=373248603, position=MID, attitude=null, speciality=POWERFUL, home=false]
+Successfully loaded player info: Player [id=385425444, position=W_L, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=377958436, position=FW, attitude=null, speciality=TECNIC, home=false]
+Successfully loaded player info: Player [id=403172118, position=FW, attitude=null, speciality=UNPREDICTABLE, home=false]
+Successfully loaded player info: Player [id=385630379, position=CD, attitude=null, speciality=FAST, home=false]
+AWAY EXIT: 381074088. ENTER: 385630379
+Successfully loaded player info: Player [id=374426075, position=FW, attitude=null, speciality=TECNIC, home=false]
+away EXIT: 377958436. ENTER: 374426075
+Match ended, total fragments: 2
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047529&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Martiri Oscuri FC-I Vermotti">Martiri Oscuri FC&nbsp;-&nbsp;I Vermotti</a>
+Successfully loaded player info: Player [id=402204499, position=GK, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=377481564, position=BW_R, attitude=null, speciality=POWERFUL, home=true]
+Successfully loaded player info: Player [id=377323302, position=CD, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=377771716, position=CD, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=380594738, position=BW_L, attitude=null, speciality=POWERFUL, home=true]
+Successfully loaded player info: Player [id=378806563, position=W_R, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=386037218, position=MID, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=374691304, position=W_L, attitude=null, speciality=UNPREDICTABLE, home=true]
+Successfully loaded player info: Player [id=426047574, position=FW, attitude=null, speciality=POWERFUL, home=true]
+Successfully loaded player info: Player [id=394911807, position=FW, attitude=null, speciality=TECNIC, home=true]
+Successfully loaded player info: Player [id=404257138, position=FW, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=377709267, position=GK, attitude=null, speciality=NOSPEC, home=false]
+Successfully loaded player info: Player [id=380936841, position=BW_R, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=387096509, position=CD, attitude=null, speciality=NOSPEC, home=false]
+Successfully loaded player info: Player [id=379377884, position=CD, attitude=null, speciality=POWERFUL, home=false]
+Successfully loaded player info: Player [id=376345221, position=BW_L, attitude=null, speciality=FAST, home=false]
+Successfully loaded player info: Player [id=388254078, position=W_R, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=373443156, position=MID, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=377701883, position=MID, attitude=null, speciality=UNPREDICTABLE, home=false]
+Successfully loaded player info: Player [id=386053656, position=MID, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=389225624, position=W_L, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=383773092, position=FW, attitude=null, speciality=UNPREDICTABLE, home=false]
+Successfully loaded player info: Player [id=381038405, position=FW, attitude=null, speciality=TECNIC, home=false]
+away EXIT: 387096509. ENTER: 381038405
+Successfully loaded player info: Player [id=386476954, position=FW, attitude=null, speciality=FAST, home=true]
+HOME EXIT: 426047574. ENTER: 386476954
+Successfully loaded player info: Player [id=369341898, position=MID, attitude=null, speciality=HEADER, home=false]
+away EXIT: 373443156. ENTER: 369341898
+
+Successfully loaded player info: Player [id=422827681, position=FW, attitude=null, speciality=NOSPEC, home=true]
+home EXIT: 386476954. ENTER: 422827681
+Successfully loaded player info: Player [id=412065641, position=FW, attitude=null, speciality=TECNIC, home=true]
+HOME EXIT: 394911807. ENTER: 412065641
+Successfully loaded player info: Player [id=376485874, position=BW_L, attitude=null, speciality=HEADER, home=false]
+away EXIT: 376345221. ENTER: 376485874
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047530&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="L' Araba fenice-Mar Mousa">L' Araba fenice&nbsp;-&nbsp;Mar Mousa</a>
+Successfully loaded player info: Player [id=391469871, position=GK, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=380724205, position=BW_R, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=380200294, position=CD, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=395511319, position=BW_L, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=376897606, position=W_R, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=390132202, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=380767782, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=385351827, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=380502329, position=W_L, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=391543191, position=FW, attitude=null, speciality=TECNIC, home=true]
+Successfully loaded player info: Player [id=381152781, position=FW, attitude=null, speciality=TECNIC, home=true]
+Successfully loaded player info: Player [id=391984722, position=GK, attitude=null, speciality=FAST, home=false]
+Successfully loaded player info: Player [id=386544869, position=BW_R, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=373852623, position=CD, attitude=null, speciality=FAST, home=false]
+Successfully loaded player info: Player [id=385829224, position=CD, attitude=null, speciality=UNPREDICTABLE, home=false]
+Successfully loaded player info: Player [id=395088475, position=BW_L, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=370517039, position=W_R, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=388428044, position=MID, attitude=null, speciality=NOSPEC, home=false]
+Successfully loaded player info: Player [id=394609703, position=W_L, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=381845717, position=FW, attitude=null, speciality=UNPREDICTABLE, home=false]
+Successfully loaded player info: Player [id=393087672, position=FW, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=381525024, position=FW, attitude=null, speciality=TECNIC, home=false]
+Successfully loaded player info: Player [id=395103369, position=FW, attitude=null, speciality=HEADER, home=false]
+away EXIT: 381845717. ENTER: 395103369
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl27_lblMatchEvent" class="matchevent homeevent" data-eventtype="215_4" data-match-minute="68" data-eventindex="29">Gli avversari di <span class="hometeam">fenice</span> dovrebbero ormai conoscere le doti di velocità di <a href="/Club/Players/Player.aspx?playerId=376897606" title="Evgeny Toykka" class="homeplayer">Evgeny Toykka</a>. La difesa si fa superare ancora una volta, solo il portiere riesce a metterci una pezza con un bellissimo tuffo.</span>
+Successfully loaded player info: Player [id=391627142, position=CD, attitude=null, speciality=HEADER, home=false]
+AWAY EXIT: 373852623. ENTER: 391627142
+Successfully loaded player info: Player [id=377281850, position=FW, attitude=null, speciality=TECNIC, home=false]
+away EXIT: 381525024. ENTER: 377281850
+Successfully loaded player info: Player [id=380487314, position=FW, attitude=null, speciality=FAST, home=true]
+HOME EXIT: 381152781. ENTER: 380487314
+Successfully loaded player info: Player [id=377939149, position=BW_R, attitude=null, speciality=POWERFUL, home=true]
+home EXIT: 380724205. ENTER: 377939149
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047531&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="A.C. Sole-Nuceria">A.C. Sole&nbsp;-&nbsp;Nuceria</a>
+Successfully loaded player info: Player [id=389246965, position=GK, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=381329214, position=BW_R, attitude=null, speciality=POWERFUL, home=true]
+Successfully loaded player info: Player [id=378485151, position=CD, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=389064168, position=BW_L, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=363805422, position=W_R, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=383861294, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=391144753, position=MID, attitude=null, speciality=TECNIC, home=true]
+Successfully loaded player info: Player [id=389207619, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=383709839, position=W_L, attitude=null, speciality=UNPREDICTABLE, home=true]
+Successfully loaded player info: Player [id=386592412, position=FW, attitude=null, speciality=TECNIC, home=true]
+Successfully loaded player info: Player [id=380770866, position=FW, attitude=null, speciality=TECNIC, home=true]
+Successfully loaded player info: Player [id=375996317, position=GK, attitude=null, speciality=UNPREDICTABLE, home=false]
+Successfully loaded player info: Player [id=401274809, position=CD, attitude=null, speciality=TECNIC, home=false]
+Successfully loaded player info: Player [id=388321450, position=CD, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=384097382, position=BW_L, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=384208313, position=W_R, attitude=null, speciality=FAST, home=false]
+Successfully loaded player info: Player [id=399702976, position=MID, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=399232206, position=MID, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=399898928, position=MID, attitude=null, speciality=UNPREDICTABLE, home=false]
+Successfully loaded player info: Player [id=394644458, position=W_L, attitude=null, speciality=FAST, home=false]
+Successfully loaded player info: Player [id=425296873, position=FW, attitude=null, speciality=NOSPEC, home=false]
+Successfully loaded player info: Player [id=399701316, position=FW, attitude=null, speciality=TECNIC, home=false]
+Successfully loaded player info: Player [id=393594869, position=FW, attitude=null, speciality=TECNIC, home=false]
+away EXIT: 425296873. ENTER: 393594869
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl10_lblMatchEvent" class="matchevent awayevent" data-eventtype="215_5" data-match-minute="11" data-eventindex="10">Al 11° <a href="/Club/Players/Player.aspx?playerId=384208313" title="Konstantin Tzankov" class="awayplayer">Konstantin Tzankov</a> si libera in velocità della difesa ma non riesce a concludere a rete.</span>
+Successfully loaded player info: Player [id=369063493, position=W_R, attitude=null, speciality=FAST, home=true]
+HOME EXIT: 363805422. ENTER: 369063493
+Successfully loaded player info: Player [id=373452265, position=FW, attitude=null, speciality=TECNIC, home=true]
+home EXIT: 381329214. ENTER: 373452265
+Successfully loaded player info: Player [id=428826866, position=FW, attitude=null, speciality=NOSPEC, home=true]
+home EXIT: 380770866. ENTER: 428826866
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047532&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Mar Mousa-Montefreddo City">Mar Mousa&nbsp;-&nbsp;Montefreddo City</a>
+Successfully loaded player info: Player [id=402641228, position=W_R, attitude=null, speciality=UNPREDICTABLE, home=true]
+Successfully loaded player info: Player [id=381331749, position=MID, attitude=null, speciality=POWERFUL, home=true]
+Successfully loaded player info: Player [id=383408825, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=387378863, position=W_L, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=398969586, position=CD, attitude=null, speciality=POWERFUL, home=false]
+Successfully loaded player info: Player [id=389283234, position=MID, attitude=null, speciality=HEADER, home=false]
+home EXIT: 387378863. ENTER: 370517039
+home EXIT: 394609703. ENTER: 391627142
+Match ended, total fragments: 3
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047533&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="MAGICO EMPOLI!-A.C. Sole">MAGICO EMPOLI!&nbsp;-&nbsp;A.C. Sole</a>
+Successfully loaded player info: Player [id=381156907, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=374403396, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=383928193, position=CD, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=376274872, position=BW_L, attitude=null, speciality=UNPREDICTABLE, home=false]
+Successfully loaded player info: Player [id=426029776, position=FW, attitude=null, speciality=NOSPEC, home=false]
+Successfully loaded player info: Player [id=431154529, position=FW, attitude=null, speciality=NOSPEC, home=false]
+away EXIT: 426029776. ENTER: 391144753
+AWAY EXIT: 431154529. ENTER: 386592412
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl14_lblMatchEvent" class="matchevent homeevent" data-eventtype="116_4" data-match-minute="21" data-eventindex="14">Che scheggia <a href="/Club/Players/Player.aspx?playerId=383602998" title="Florian D?u?" class="homeplayer">Florian D?u?</a>! Al minuto 21 è stato autore di uno scatto incredibile, seguito da un destro rasoterra sul quale si è avventato <a href="/Club/Players/Player.aspx?playerId=374426075" title="Olivier Chevillon" class="homeplayer">Olivier Chevillon</a>, che in scivolata l'ha messa dentro da un metro. 1 - 0!</span>
+home EXIT: 374426075. ENTER: 388467887
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl24_lblMatchEvent" class="matchevent homeevent" data-eventtype="239_2" data-match-minute="39" data-eventindex="26">La tecnica sopraffina di <a href="/Club/Players/Player.aspx?playerId=377958436" title="Damiano Crisby" class="homeplayer">Damiano Crisby</a> riesce sempre ad avere la meglio sull'alto ma lento <a href="/Club/Players/Player.aspx?playerId=378485151" title="Shahab Karimkhan Zand" class="awayplayer">Shahab Karimkhan Zand</a> che viene umiliato in parecchie occasioni.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl26_lblMatchEvent" class="matchevent homeevent" data-eventtype="116_2" data-match-minute="42" data-eventindex="29">Dopo 42 minuti, c'è la rete per <span class="hometeam">EMPOLI!</span>! <a href="/Club/Players/Player.aspx?playerId=383602998" title="Florian D?u?" class="homeplayer">Florian D?u?</a> ha pennellato per <a href="/Club/Players/Player.aspx?playerId=403172118" title="Wilhelm Riegler" class="homeplayer">Wilhelm Riegler</a>, che di testa ha appoggiato nel sacco. Il punteggio ora è 4 a 0, ma da notare l'incredibile progressione di <a href="/Club/Players/Player.aspx?playerId=383602998" title="Florian D?u?" class="homeplayer">Florian D?u?</a>, che in velocità ha letteralmente fulminato la fascia laterale.</span>
+home EXIT: 374403396. ENTER: 385630379
+Successfully loaded player info: Player [id=437549129, position=FW, attitude=null, speciality=UNPREDICTABLE, home=false]
+away EXIT: 386592412. ENTER: 437549129
+Match ended, total fragments: 7
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047534&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="I Vermotti-L' Araba fenice">I Vermotti&nbsp;-&nbsp;L' Araba fenice</a>
+Successfully loaded player info: Player [id=373180132, position=W_R, attitude=null, speciality=UNPREDICTABLE, home=true]
+Successfully loaded player info: Player [id=361150001, position=W_L, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=386849731, position=MID, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=378062617, position=FW, attitude=null, speciality=TECNIC, home=false]
+Successfully loaded player info: Player [id=360454042, position=FW, attitude=null, speciality=TECNIC, home=true]
+home EXIT: 387096509. ENTER: 360454042
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl20_lblMatchEvent" class="matchevent homeevent" data-eventtype="137_2" data-match-minute="53" data-eventindex="22">Sfruttando un perfetto passaggio in profondità <a href="/Club/Players/Player.aspx?playerId=361150001" title="Timo Messel" class="homeplayer">Timo Messel</a> ricama uno strabiliante cross in corsa per la testa di <a href="/Club/Players/Player.aspx?playerId=388254078" title="Étienne Bastian" class="homeplayer">Étienne Bastian</a>, che appostato sul vertice dell'area piccola fa sfoggio delle sue famose doti aeree per insaccare il gol del 2 a 1 al minuto 53.</span>
+home EXIT: 361150001. ENTER: 376485874
+HOME EXIT: 360454042. ENTER: 381038405
+AWAY EXIT: 378062617. ENTER: 390132202
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047535&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Nuceria-Martiri Oscuri FC">Nuceria&nbsp;-&nbsp;Martiri Oscuri FC</a>
+Successfully loaded player info: Player [id=386192047, position=BW_L, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=426942829, position=FW, attitude=null, speciality=NOSPEC, home=false]
+home EXIT: 425296873. ENTER: 393594869
+AWAY EXIT: 412065641. ENTER: 404257138
+away EXIT: 426942829. ENTER: 386476954
+Successfully loaded player info: Player [id=436055669, position=FW, attitude=null, speciality=NOSPEC, home=false]
+away EXIT: 386476954. ENTER: 436055669
+Match ended, total fragments: 3
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047536&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Montefreddo City-Nuceria">Montefreddo City&nbsp;-&nbsp;Nuceria</a>
+Successfully loaded player info: Player [id=391641392, position=FW, attitude=null, speciality=TECNIC, home=true]
+Successfully loaded player info: Player [id=437758719, position=W_R, attitude=null, speciality=FAST, home=false]
+away EXIT: 437758719. ENTER: 394644458
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl08_lblMatchEvent" class="matchevent homeevent" data-eventtype="116_5" data-match-minute="17" data-eventindex="9">Un alieno è atterrato sul campo di gioco! Pazzesca progressione di <a href="/Club/Players/Player.aspx?playerId=391118548" title="Irving Stanwick" class="homeplayer">Irving Stanwick</a>, che è scappato a tre difensori avversari regalando a <a href="/Club/Players/Player.aspx?playerId=395713357" title="Berxwedan Dilshad" class="homeplayer">Berxwedan Dilshad</a> un gol facile facile. Semplicemente un extraterrestre! Il minuto 17 di questa gara resterà sicuramente negli occhi di tutti gli spettatori. 2 a 0!</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl12_lblMatchEvent" class="matchevent homeevent" data-eventtype="118_3" data-match-minute="26" data-eventindex="13">Schema su calcio d'angolo e c'è il gol! Un bel gol, con <a href="/Club/Players/Player.aspx?playerId=391641392" title="Emilio Carmona" class="homeplayer">Emilio Carmona</a> che ha spizzato il pallone per l'accorrente <a href="/Club/Players/Player.aspx?playerId=391118548" title="Irving Stanwick" class="homeplayer">Irving Stanwick</a>, il quale non ha dovuto far altro che spedire in rete col destro. <span class="hometeam">Monte City</span> che dunque al 26° costringe il punteggio a cambiare: 4 - 0.</span>
+Match ended, total fragments: 3
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047537&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="L' Araba fenice-Martiri Oscuri FC">L' Araba fenice&nbsp;-&nbsp;Martiri Oscuri FC</a>
+Successfully loaded player info: Player [id=383553758, position=MID, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=430317900, position=FW, attitude=null, speciality=NOSPEC, home=false]
+away EXIT: 430317900. ENTER: 386476954
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl20_lblMatchEvent" class="matchevent homeevent" data-eventtype="118_2" data-match-minute="55" data-eventindex="24">Gol! Gol! Al minuto 55 arriva questa rete su azione d'angolo: cross teso sul primo palo, stacco imperioso di <a href="/Club/Players/Player.aspx?playerId=380724205" title="Taha Trimech" class="homeplayer">Taha Trimech</a> che colpisce il palo interno, ma <a href="/Club/Players/Player.aspx?playerId=380502329" title="Matías Gastón Loffredo" class="homeplayer">Matías Gastón Loffredo</a> è lesto a ribadire nel sacco. Posizione regolare di <a href="/Club/Players/Player.aspx?playerId=380502329" title="Matías Gastón Loffredo" class="homeplayer">Matías Gastón Loffredo</a>, come si evince dai replay: lo tenevano in gioco portiere e difensore sulla linea di porta. E adesso il risultato è di 2 - 2.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl21_lblMatchEvent" class="matchevent homeevent" data-eventtype="239_3" data-match-minute="70" data-eventindex="25">70°, con un paio di dribbling fulminei <a href="/Club/Players/Player.aspx?playerId=378062617" title="Gerald Cook" class="homeplayer">Gerald Cook</a> si è lasciato dietro un ansimante <a href="/Club/Players/Player.aspx?playerId=383553758" title="Apoloniusz Wierzgo?" class="awayplayer">Apoloniusz Wierzgo?</a>, peccato per il tiro. Completamente fuori.</span>
+Successfully loaded player info: Player [id=386093985, position=MID, attitude=null, speciality=NOSPEC, home=false]
+AWAY EXIT: 374691304. ENTER: 386093985
+Successfully loaded player info: Player [id=429282482, position=FW, attitude=null, speciality=NOSPEC, home=false]
+away EXIT: 386476954. ENTER: 429282482
+Match ended, total fragments: 3
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047538&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Mar Mousa-MAGICO EMPOLI!">Mar Mousa&nbsp;-&nbsp;MAGICO EMPOLI!</a>
+Successfully loaded player info: Player [id=434947739, position=W_R, attitude=null, speciality=NOSPEC, home=true]
+HOME EXIT: 434947739. ENTER: 402641228
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl09_lblMatchEvent" class="matchevent awayevent" data-eventtype="225_4" data-match-minute="13" data-eventindex="10">Fortunatamente per <span class="hometeam">Mousa</span>, il loro portiere è un po' meno sbadato di <a href="/Club/Players/Player.aspx?playerId=381845717" title="Laurent Butet" class="homeplayer">Laurent Butet</a> e riesce a evitargli un imbarazzante autogol.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl16_lblMatchEvent" class="matchevent awayevent" data-eventtype="514_4" data-match-minute="36" data-eventindex="17">Al 36° <a href="/Club/Players/Player.aspx?playerId=388467887" title="Andrei Bobocea" class="awayplayer">Andrei Bobocea</a> di <span class="awayteam">EMPOLI!</span> scaraventa a terra un avversario spingendolo da dietro per fermare l'azione di ripartenza. L'arbitro non ha dubbi: cartellino rosso.</span>
+Successfully loaded player info: Player [id=392970521, position=MID, attitude=null, speciality=POWERFUL, home=true]
+home EXIT: 381331749. ENTER: 392970521
+home EXIT: 387378863. ENTER: 370517039
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047539&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="A.C. Sole-I Vermotti">A.C. Sole&nbsp;-&nbsp;I Vermotti</a>
+Successfully loaded player info: Player [id=385522325, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=435940884, position=CD, attitude=null, speciality=NOSPEC, home=false]
+away EXIT: 435940884. ENTER: 381038405
+
+Successfully loaded player info: Player [id=387278865, position=CD, attitude=null, speciality=HEADER, home=false]
+away EXIT: 381038405. ENTER: 387278865
+Successfully loaded player info: Player [id=428184934, position=W_R, attitude=null, speciality=NOSPEC, home=false]
+AWAY EXIT: 361150001. ENTER: 428184934
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047540&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="I Vermotti-Montefreddo City">I Vermotti&nbsp;-&nbsp;Montefreddo City</a>
+Successfully loaded player info: Player [id=376116325, position=W_L, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=373462288, position=FW, attitude=null, speciality=FAST, home=true]
+HOME EXIT: 428184934. ENTER: 376345221
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl14_lblMatchEvent" class="matchevent awayevent" data-eventtype="139_2" data-match-minute="18" data-eventindex="14">Questa è Magia! <a href="/Club/Players/Player.aspx?playerId=391641392" title="Emilio Carmona" class="awayplayer">Emilio Carmona</a> semina il panico nella difesa avversaria confondendo con un'abile finta <a href="/Club/Players/Player.aspx?playerId=380936841" title="Csongor Lukovics" class="homeplayer">Csongor Lukovics</a> e concludendo la serpentina con una non meno spettacolare botta che va ad infilarsi sotto la traversa: 0 - 1.</span>
+HOME EXIT: 376345221. ENTER: 379377884
+Successfully loaded player info: Player [id=377839112, position=FW, attitude=null, speciality=TECNIC, home=true]
+HOME EXIT: 377701883. ENTER: 377839112
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047541&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="MAGICO EMPOLI!-L' Araba fenice">MAGICO EMPOLI!&nbsp;-&nbsp;L' Araba fenice</a>
+Successfully loaded player info: Player [id=377414118, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=381926031, position=W_L, attitude=null, speciality=FAST, home=false]
+
+away EXIT: 380200294. ENTER: 381152781
+AWAY EXIT: 376897606. ENTER: 380502329
+Successfully loaded player info: Player [id=390743517, position=BW_L, attitude=null, speciality=NOSPEC, home=false]
+away EXIT: 377939149. ENTER: 390743517
+Successfully loaded player info: Player [id=380207161, position=FW, attitude=null, speciality=TECNIC, home=true]
+home EXIT: 388467887. ENTER: 380207161
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047542&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Martiri Oscuri FC-A.C. Sole">Martiri Oscuri FC&nbsp;-&nbsp;A.C. Sole</a>
+Successfully loaded player info: Player [id=391445102, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=374626248, position=MID, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=386350164, position=W_R, attitude=null, speciality=HEADER, home=false]
+away EXIT: 363805422. ENTER: 386350164
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl22_lblMatchEvent" class="matchevent homeevent" data-eventtype="118_4" data-match-minute="70" data-eventindex="25">Reteeeee! Su calcio piazzato, un corner per essere precisi. <a href="/Club/Players/Player.aspx?playerId=377481564" title="Mehrang Pashanejad" class="homeplayer">Mehrang Pashanejad</a> ha calciato a botta sicura, ma ha trovato la prodigiosa respinta di un difensore. <a href="/Club/Players/Player.aspx?playerId=377771716" title="Ferdinand Ambrosius" class="homeplayer">Ferdinand Ambrosius</a> più veloce di tutti a ributtarla in rete con un sinistro tagliato. 1 a 2.</span>
+away EXIT: 381329214. ENTER: 380770866
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl34_lblMatchEvent" class="matchevent awayevent" data-eventtype="139_1" data-match-minute="81" data-eventindex="37">Al 81° minuto <a href="/Club/Players/Player.aspx?playerId=391144753" title="Jay Clelland" class="awayplayer">Jay Clelland</a> si prende gioco di <a href="/Club/Players/Player.aspx?playerId=391445102" title="Luciano Arcos" class="homeplayer">Luciano Arcos</a> con un paio dei tanti trucchi nel suo repertorio e va a segnare il gol del 4 a 3.</span>
+HOME EXIT: 377771716. ENTER: 380594738
+HOME EXIT: 377323302. ENTER: 374691304
+Successfully loaded player info: Player [id=430598512, position=FW, attitude=null, speciality=NOSPEC, home=false]
+away EXIT: 386592412. ENTER: 430598512
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047543&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Nuceria-Mar Mousa">Nuceria&nbsp;-&nbsp;Mar Mousa</a>
+Successfully loaded player info: Player [id=391629119, position=W_R, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=437858642, position=W_L, attitude=null, speciality=UNPREDICTABLE, home=true]
+Successfully loaded player info: Player [id=391261980, position=FW, attitude=null, speciality=HEADER, home=true]
+home EXIT: 437858642. ENTER: 384208313
+AWAY EXIT: 387378863. ENTER: 402641228
+home EXIT: 401274809. ENTER: 384097382
+AWAY EXIT: 402641228. ENTER: 381525024
+away EXIT: 388428044. ENTER: 385829224
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047544&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Montefreddo City-A.C. Sole">Montefreddo City&nbsp;-&nbsp;A.C. Sole</a>
+Successfully loaded player info: Player [id=430895281, position=FW, attitude=null, speciality=POWERFUL, home=false]
+away EXIT: 430895281. ENTER: 380770866
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl13_lblMatchEvent" class="matchevent homeevent" data-eventtype="139_5" data-match-minute="18" data-eventindex="14">Forse sarebbe stato meglio che <a href="/Club/Players/Player.aspx?playerId=389207619" title="Giovanni Santirocchi" class="awayplayer">Giovanni Santirocchi</a> non fosse in campo quest'oggi: la sua macchinosità è preda delle finte e controfinte di <a href="/Club/Players/Player.aspx?playerId=391641392" title="Emilio Carmona" class="homeplayer">Emilio Carmona</a> che dopo averlo irriso per l'ennesima volta, segna agevolmente il 1 a 1.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl14_lblMatchEvent" class="matchevent awayevent" data-eventtype="219_1" data-match-minute="24" data-eventindex="16">Occasionissima per <span class="awayteam">The Sun</span>, che ha sfiorato il gol al minuto 24 sugli sviluppi di un calcio d'angolo battuto da <a href="/Club/Players/Player.aspx?playerId=376274872" title="Natan Gubinskiy" class="awayplayer">Natan Gubinskiy</a>. Protagonista dell'azione <a href="/Club/Players/Player.aspx?playerId=378485151" title="Shahab Karimkhan Zand" class="awayplayer">Shahab Karimkhan Zand</a>, che è saltato più in alto di tutti e ha colpito di testa. Pallone che ha scheggiato la traversa lasciando il risultato invariato.</span>
+AWAY EXIT: 363805422. ENTER: 369063493
+away EXIT: 380770866. ENTER: 391144753
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047545&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Mar Mousa-Martiri Oscuri FC">Mar Mousa&nbsp;-&nbsp;Martiri Oscuri FC</a>
+Successfully loaded player info: Player [id=421122862, position=FW, attitude=null, speciality=NOSPEC, home=false]
+AWAY EXIT: 421122862. ENTER: 386476954
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl08_lblMatchEvent" class="matchevent awayevent" data-eventtype="116_2" data-match-minute="6" data-eventindex="9">Dopo 6 minuti, c'è la rete per <span class="awayteam">Martiri</span>! <a href="/Club/Players/Player.aspx?playerId=386476954" title="Farid Srour" class="awayplayer">Farid Srour</a> ha pennellato per <a href="/Club/Players/Player.aspx?playerId=378806563" title="Federico Amiotti" class="awayplayer">Federico Amiotti</a>, che di testa ha appoggiato nel sacco. Il punteggio ora è 0 a 1, ma da notare l'incredibile progressione di <a href="/Club/Players/Player.aspx?playerId=386476954" title="Farid Srour" class="awayplayer">Farid Srour</a>, che in velocità ha letteralmente fulminato la fascia laterale.</span>
+home EXIT: 392970521. ENTER: 381525024
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl20_lblMatchEvent" class="matchevent homeevent" data-eventtype="370_4" data-match-minute="60" data-eventindex="21">Siamo al 60° minuto. Annusando l'odore della sconfitta, il coach di <span class="hometeam">Mousa</span> ha ordinato a <a href="/Club/Players/Player.aspx?playerId=381525024" title="Antonio Corda" class="homeplayer">Antonio Corda</a> e <a href="/Club/Players/Player.aspx?playerId=395103369" title="Sebastiano Lodolini" class="homeplayer">Sebastiano Lodolini</a> di scambiarsi di posizione.</span>
+HOME EXIT: 383408825. ENTER: 391627142
+Successfully loaded player info: Player [id=429186117, position=FW, attitude=null, speciality=TECNIC, home=false]
+AWAY EXIT: 386476954. ENTER: 429186117
+away EXIT: 394911807. ENTER: 374691304
+Successfully loaded player info: Player [id=433486927, position=W_L, attitude=null, speciality=NOSPEC, home=true]
+home EXIT: 402641228. ENTER: 433486927
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047546&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="L' Araba fenice-Nuceria">L' Araba fenice&nbsp;-&nbsp;Nuceria</a>
+Successfully loaded player info: Player [id=389362246, position=CD, attitude=null, speciality=NOSPEC, home=true]
+AWAY EXIT: 401274809. ENTER: 384097382
+home EXIT: 389362246. ENTER: 381152781
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl21_lblMatchEvent" class="matchevent homeevent" data-eventtype="137_3" data-match-minute="66" data-eventindex="23">Che spettacolo signori al minuto 66! <a href="/Club/Players/Player.aspx?playerId=386849731" title="Eugenio Lanunziata" class="homeplayer">Eugenio Lanunziata</a> chiama palla al centro dell'area di rigore e prontamente <a href="/Club/Players/Player.aspx?playerId=381926031" title="Kleofas Furtak" class="homeplayer">Kleofas Furtak</a> disegna un cross che lo va a pescare in cielo, là dove solo uno specialista del gioco aereo come lui può arrivare! Il portiere non può far altro che guardare il pallone infilarsi all'incrocio dei pali e fissare il tabellone che si aggiorna: 2 a 1.</span>
+home EXIT: 380502329. ENTER: 376897606
+HOME EXIT: 390743517. ENTER: 377939149
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047547&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="MAGICO EMPOLI!-I Vermotti">MAGICO EMPOLI!&nbsp;-&nbsp;I Vermotti</a>
+Successfully loaded player info: Player [id=381562711, position=MID, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=391773683, position=BW_R, attitude=null, speciality=NOSPEC, home=false]
+away EXIT: 428184934. ENTER: 391773683
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl16_lblMatchEvent" class="matchevent awayevent" data-eventtype="219_4" data-match-minute="41" data-eventindex="17">Calcio d'angolo per <span class="awayteam">Vermotti</span>: <a href="/Club/Players/Player.aspx?playerId=386053656" title="Mauro Magonara" class="awayplayer">Mauro Magonara</a>, sul secondo palo, salta più in alto di tutti, ma il suo colpo di testa finisce di pochi centimetri a lato.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl29_lblMatchEvent" class="matchevent homeevent" data-eventtype="514_5" data-match-minute="77" data-eventindex="32"><span class="hometeam">EMPOLI!</span> dovrà finire la partita a ranghi ridotti dal minuto 77. <a href="/Club/Players/Player.aspx?playerId=385342207" title="Jesús Villouta" class="homeplayer">Jesús Villouta</a> ha avuto la brillante idea di rifilare una manata ad un avversario a gioco fermo. L'arbitro è inflessibile. Il cartellino, rosso.</span>
+AWAY EXIT: 377701883. ENTER: 379377884
+home EXIT: 380207161. ENTER: 374403396
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl36_lblMatchEvent" class="matchevent awayevent" data-eventtype="115_4" data-match-minute="78" data-eventindex="39"><a href="/Club/Players/Player.aspx?playerId=373462288" title="Gilberto Cadórniga" class="awayplayer">Gilberto Cadórniga</a> in gol!!! Gol sensazionale del giocatore di <span class="awayteam">Vermotti</span>, che al minuto 78 brucia letteralmente <a href="/Club/Players/Player.aspx?playerId=395771247" title="Youssef Melhem" class="homeplayer">Youssef Melhem</a> sullo scatto, si presenta in solitaria davanti al portiere e lo batte con un preciso piatto destro. E l'esultanza alla Usain Bolt è la più appropriata per una rete del genere! 0 a 1!</span>
+HOME EXIT: 385630379. ENTER: 403172118
+AWAY EXIT: 380936841. ENTER: 435940884
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047548&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Martiri Oscuri FC-Montefreddo City">Martiri Oscuri FC&nbsp;-&nbsp;Montefreddo City</a>
+Successfully loaded player info: Player [id=382706779, position=CD, attitude=null, speciality=UNPREDICTABLE, home=true]
+home EXIT: 374691304. ENTER: 377481564
+home EXIT: 377481564. ENTER: 380594738
+HOME EXIT: 378806563. ENTER: 386093985
+Match ended, total fragments: 3
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047549&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="A.C. Sole-L' Araba fenice">A.C. Sole&nbsp;-&nbsp;L' Araba fenice</a>
+Successfully loaded player info: Player [id=427961504, position=BW_R, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=383360647, position=CD, attitude=null, speciality=NOSPEC, home=false]
+home EXIT: 427961504. ENTER: 381329214
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl11_lblMatchEvent" class="matchevent awayevent" data-eventtype="239_5" data-match-minute="11" data-eventindex="12"><a href="/Club/Players/Player.aspx?playerId=391543191" title="Nicola Pandini" class="awayplayer">Nicola Pandini</a> danza come un folletto davanti al suo gigantesco marcatore, <a href="/Club/Players/Player.aspx?playerId=385522325" title="Eidimtas Šaraninas" class="homeplayer">Eidimtas Šaraninas</a>, superandolo con un tunnel. Solo la coraggiosa uscita del portiere riesce a evitare il peggio.</span>
+
+home EXIT: 363805422. ENTER: 386350164
+Successfully loaded player info: Player [id=389028536, position=W_L, attitude=null, speciality=NOSPEC, home=true]
+home EXIT: 369063493. ENTER: 389028536
+Successfully loaded player info: Player [id=383741208, position=FW, attitude=null, speciality=TECNIC, home=false]
+AWAY EXIT: 386849731. ENTER: 383741208
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047550&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="I Vermotti-Mar Mousa">I Vermotti&nbsp;-&nbsp;Mar Mousa</a>
+Successfully loaded player info: Player [id=391323104, position=GK, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=381224988, position=FW, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=393236777, position=MID, attitude=null, speciality=HEADER, home=false]
+home EXIT: 428184934. ENTER: 380936841
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl13_lblMatchEvent" class="matchevent awayevent" data-eventtype="310_3" data-match-minute="21" data-eventindex="13">Abbiamo assistito ad un attacco di <span class="hometeam">Vermotti</span> al minuto 21, non si è concretizzato a causa della possente prestanza di <a href="/Club/Players/Player.aspx?playerId=392970521" title="Sergey Strelnikov" class="awayplayer">Sergey Strelnikov</a>.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl14_lblMatchEvent" class="matchevent awayevent" data-eventtype="205_5" data-match-minute="24" data-eventindex="15">Lunghissimo passaggio alla cieca di <a href="/Club/Players/Player.aspx?playerId=385829224" title="Aghil Chitsazian" class="awayplayer">Aghil Chitsazian</a> che sorprende tutti, compreso il suo compagno <a href="/Club/Players/Player.aspx?playerId=393087672" title="Muharrem Terlan" class="awayplayer">Muharrem Terlan</a>, che non aggancia e lascia sfilare la palla in fallo laterale.</span>
+HOME EXIT: 381224988. ENTER: 373462288
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl30_lblMatchEvent" class="matchevent homeevent" data-eventtype="137_3" data-match-minute="63" data-eventindex="31">Che spettacolo signori al minuto 63! <a href="/Club/Players/Player.aspx?playerId=373443156" title="Bülent Eseray" class="homeplayer">Bülent Eseray</a> chiama palla al centro dell'area di rigore e prontamente <a href="/Club/Players/Player.aspx?playerId=389225624" title="Bence Ardai" class="homeplayer">Bence Ardai</a> disegna un cross che lo va a pescare in cielo, là dove solo uno specialista del gioco aereo come lui può arrivare! Il portiere non può far altro che guardare il pallone infilarsi all'incrocio dei pali e fissare il tabellone che si aggiorna: 2 a 1.</span>
+AWAY EXIT: 385829224. ENTER: 381525024
+away EXIT: 392970521. ENTER: 395103369
+Successfully loaded player info: Player [id=426556575, position=FW, attitude=null, speciality=NOSPEC, home=true]
+home EXIT: 383773092. ENTER: 426556575
+Successfully loaded player info: Player [id=436669946, position=W_R, attitude=null, speciality=FAST, home=false]
+AWAY EXIT: 370517039. ENTER: 436669946
+Match ended, total fragments: 7
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047551&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Nuceria-MAGICO EMPOLI!">Nuceria&nbsp;-&nbsp;MAGICO EMPOLI!</a>
+HOME EXIT: 399701316. ENTER: 394644458
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl14_lblMatchEvent" class="matchevent homeevent" data-eventtype="116_5" data-match-minute="40" data-eventindex="17">Un alieno è atterrato sul campo di gioco! Pazzesca progressione di <a href="/Club/Players/Player.aspx?playerId=394644458" title="John Skjæveland" class="homeplayer">John Skjæveland</a>, che è scappato a tre difensori avversari regalando a <a href="/Club/Players/Player.aspx?playerId=393594869" title="Luca Schraudner" class="homeplayer">Luca Schraudner</a> un gol facile facile. Semplicemente un extraterrestre! Il minuto 40 di questa gara resterà sicuramente negli occhi di tutti gli spettatori. 2 a 0!</span>
+AWAY EXIT: 388467887. ENTER: 377414118
+home EXIT: 393594869. ENTER: 388321450
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047552&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Montefreddo City-L' Araba fenice">Montefreddo City&nbsp;-&nbsp;L' Araba fenice</a>
+Successfully loaded player info: Player [id=386888972, position=MID, attitude=null, speciality=HEADER, home=false]
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl22_lblMatchEvent" class="matchevent awayevent" data-eventtype="116_2" data-match-minute="64" data-eventindex="23">Dopo 64 minuti, c'è la rete per <span class="awayteam">fenice</span>! <a href="/Club/Players/Player.aspx?playerId=380487314" title="Leon Hämmerle" class="awayplayer">Leon Hämmerle</a> ha pennellato per <a href="/Club/Players/Player.aspx?playerId=381152781" title="Sammy Petäjä" class="awayplayer">Sammy Petäjä</a>, che di testa ha appoggiato nel sacco. Il punteggio ora è 3 a 1, ma da notare l'incredibile progressione di <a href="/Club/Players/Player.aspx?playerId=380487314" title="Leon Hämmerle" class="awayplayer">Leon Hämmerle</a>, che in velocità ha letteralmente fulminato la fascia laterale.</span>
+away EXIT: 383360647. ENTER: 391543191
+away EXIT: 386888972. ENTER: 385351827
+HOME EXIT: 391255698. ENTER: 391364373
+home EXIT: 390671240. ENTER: 398969586
+home EXIT: 391028180. ENTER: 384206507
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047553&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="MAGICO EMPOLI!-Martiri Oscuri FC">MAGICO EMPOLI!&nbsp;-&nbsp;Martiri Oscuri FC</a>
+Successfully loaded player info: Player [id=386714659, position=FW, attitude=null, speciality=TECNIC, home=true]
+away EXIT: 374691304. ENTER: 382706779
+ERROR - injury substitution 2 players. Event: <span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl12_lblMatchEvent" class="matchevent awayevent" data-eventtype="424_4" data-match-minute="12" data-eventindex="12"><a href="/Club/Players/Player.aspx?playerId=380594738" title="J?nis J?kobsons" class="awayplayer">J?nis J?kobsons</a> si è già riscaldato ed entra in campo al posto di <a href="/Club/Players/Player.aspx?playerId=386037218" title="Ellis Swink" class="awayplayer">Ellis Swink</a>.</span>
+AWAY EXIT: 386037218. ENTER: 380594738
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl17_lblMatchEvent" class="matchevent awayevent" data-eventtype="218_3" data-match-minute="25" data-eventindex="17">L'incornata di <a href="/Club/Players/Player.aspx?playerId=382706779" title="Ignat Bytsko" class="awayplayer">Ignat Bytsko</a>, piazzatosi sul primo palo per sfruttare un calcio d'angolo, coglie in pieno il palo. La successiva deviazione di un giocatore avversario regala un altro corner a <span class="awayteam">Martiri</span>.</span>
+
+away EXIT: 382706779. ENTER: 386093985
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047554&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Mar Mousa-A.C. Sole">Mar Mousa&nbsp;-&nbsp;A.C. Sole</a>
+Successfully loaded player info: Player [id=411138945, position=W_L, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=428340493, position=FW, attitude=null, speciality=NOSPEC, home=false]
+home EXIT: 411138945. ENTER: 370517039
+away EXIT: 428340493. ENTER: 380770866
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl14_lblMatchEvent" class="matchevent homeevent" data-eventtype="208_5" data-match-minute="22" data-eventindex="14"><a href="/Club/Players/Player.aspx?playerId=385829224" title="Aghil Chitsazian" class="homeplayer">Aghil Chitsazian</a> stupisce tutti con il suo geniale passaggio per <a href="/Club/Players/Player.aspx?playerId=393087672" title="Muharrem Terlan" class="homeplayer">Muharrem Terlan</a> che in qualche modo riceve la palla ma è pure lui tanto stupito da non riuscire a cogliere l'occasione.</span>
+HOME EXIT: 385829224. ENTER: 395103369
+
+away EXIT: 369063493. ENTER: 363805422
+ERROR - Munged not managed role: Ala
+ERROR - Munged not managed role: Ala
+ERROR - Munged not managed role: Ala
+ERROR - Munged not managed role: Ala
+ERROR - Munged not managed role: Ala
+Successfully loaded player info: Player [id=402230903, position=GK, attitude=null, speciality=NOSPEC, home=true]
+HOME EXIT: 391984722. ENTER: 402230903
+away EXIT: 389064168. ENTER: 427961504
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047555&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="I Vermotti-Nuceria">I Vermotti&nbsp;-&nbsp;Nuceria</a>
+Successfully loaded player info: Player [id=419013344, position=FW, attitude=null, speciality=FAST, home=true]
+Successfully loaded player info: Player [id=387578424, position=CD, attitude=null, speciality=NOSPEC, home=false]
+home EXIT: 419013344. ENTER: 383773092
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl12_lblMatchEvent" class="matchevent homeevent" data-eventtype="119_3" data-match-minute="32" data-eventindex="12">Gol! Molto bello l'angolo di <a href="/Club/Players/Player.aspx?playerId=391773683" title="? (Jian) ?? (Keming)" class="homeplayer">? (Jian) ?? (Keming)</a>, con <a href="/Club/Players/Player.aspx?playerId=373443156" title="Bülent Eseray" class="homeplayer">Bülent Eseray</a> che incorna a fil di palo. Il punteggio, al 32° minuto di gioco, è di 1 a 0.</span>
+ERROR - injury substitution 2 players. Event: <span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl23_lblMatchEvent" class="matchevent homeevent" data-eventtype="424_4" data-match-minute="54" data-eventindex="25"><a href="/Club/Players/Player.aspx?playerId=377701883" title="Juan Cruz Arguello" class="homeplayer">Juan Cruz Arguello</a> si è già riscaldato ed entra in campo al posto di <a href="/Club/Players/Player.aspx?playerId=391773683" title="? (Jian) ?? (Keming)" class="homeplayer">? (Jian) ?? (Keming)</a>.</span>
+HOME EXIT: 391773683. ENTER: 377701883
+home EXIT: 388254078. ENTER: 373180132
+AWAY EXIT: 391261980. ENTER: 393594869
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047556&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Nuceria-I Vermotti">Nuceria&nbsp;-&nbsp;I Vermotti</a>
+Successfully loaded player info: Player [id=402392632, position=CD, attitude=null, speciality=POWERFUL, home=true]
+away EXIT: 419013344. ENTER: 373462288
+HOME EXIT: 402392632. ENTER: 388321450
+HOME EXIT: 401274809. ENTER: 387578424
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl17_lblMatchEvent" class="matchevent homeevent" data-eventtype="115_1" data-match-minute="63" data-eventindex="19">Gol! È gol al 63° minuto con un destro violento di <a href="/Club/Players/Player.aspx?playerId=384208313" title="Konstantin Tzankov" class="homeplayer">Konstantin Tzankov</a> dopo un'azione personale! Era abbastanza evidente come <a href="/Club/Players/Player.aspx?playerId=380936841" title="Csongor Lukovics" class="awayplayer">Csongor Lukovics</a> faticasse a contenere la velocità dell'avversario, e alla fine questo gap ha portato alla rete che fissa il punteggio sul parziale di 1 a 0.</span>
+home EXIT: 384208313. ENTER: 394644458
+away EXIT: 379377884. ENTER: 377839112
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl25_lblMatchEvent" class="matchevent awayevent" data-eventtype="370_5" data-match-minute="81" data-eventindex="28">Ancora indietro nel punteggio, <span class="awayteam">Vermotti</span> ha modificato il suo schieramento dopo 81 minuti. Dopo aver ricevuto ordini dalla panchina <a href="/Club/Players/Player.aspx?playerId=373462288" title="Gilberto Cadórniga" class="awayplayer">Gilberto Cadórniga</a> ha scambiato posizione con <a href="/Club/Players/Player.aspx?playerId=377839112" title="Wilmer Burkhart" class="awayplayer">Wilmer Burkhart</a>.</span>
+AWAY EXIT: 373462288. ENTER: 426556575
+Match ended, total fragments: 7
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047557&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="A.C. Sole-Mar Mousa">A.C. Sole&nbsp;-&nbsp;Mar Mousa</a>
+Successfully loaded player info: Player [id=386275979, position=GK, attitude=null, speciality=NOSPEC, home=false]
+home EXIT: 427961504. ENTER: 383928193
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl12_lblMatchEvent" class="matchevent homeevent" data-eventtype="218_1" data-match-minute="18" data-eventindex="12">Bello schema! <a href="/Club/Players/Player.aspx?playerId=389064168" title="Nikolay Rusev" class="homeplayer">Nikolay Rusev</a>, piazzato sul primo palo in occasione di un calcio d'angolo, prolunga all'indietro per l'accorrente <a href="/Club/Players/Player.aspx?playerId=369063493" title="Abdul-Hamid Al-Naimai" class="homeplayer">Abdul-Hamid Al-Naimai</a> che lascia partire un bel diagonale di prima intenzione. Il portiere avversario ha un grande riflesso, nonostante la selva di gambe che gli copre la visuale al momento del tiro, e con un notevole colpo di reni mette la palla ancora in angolo.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl14_lblMatchEvent" class="matchevent awayevent" data-eventtype="310_2" data-match-minute="23" data-eventindex="14">23°, <a href="/Club/Players/Player.aspx?playerId=392970521" title="Sergey Strelnikov" class="awayplayer">Sergey Strelnikov</a> si è opposto da solo a una pericolosa ripartenza di <span class="hometeam">The Sun</span> usando esattamente il grado di pressione fisica richiesto sul portatore di palla.</span>
+away EXIT: 385829224. ENTER: 391627142
+HOME EXIT: 369063493. ENTER: 363805422
+away EXIT: 393087672. ENTER: 383408825
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl30_lblMatchEvent" class="matchevent awayevent" data-eventtype="370_5" data-match-minute="71" data-eventindex="31">Ancora indietro nel punteggio, <span class="awayteam">Mousa</span> ha modificato il suo schieramento dopo 71 minuti. Dopo aver ricevuto ordini dalla panchina <a href="/Club/Players/Player.aspx?playerId=383408825" title="? (Fan) ?? (Beipeng)" class="awayplayer">? (Fan) ?? (Beipeng)</a> ha scambiato posizione con <a href="/Club/Players/Player.aspx?playerId=395103369" title="Sebastiano Lodolini" class="awayplayer">Sebastiano Lodolini</a>.</span>
+AWAY EXIT: 387378863. ENTER: 370517039
+HOME EXIT: 391144753. ENTER: 428340493
+Match ended, total fragments: 7
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047558&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="L' Araba fenice-Montefreddo City">L' Araba fenice&nbsp;-&nbsp;Montefreddo City</a>
+Successfully loaded player info: Player [id=377259130, position=CD, attitude=null, speciality=HEADER, home=true]
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl09_lblMatchEvent" class="matchevent homeevent" data-eventtype="216_4" data-match-minute="30" data-eventindex="11"><a href="/Club/Players/Player.aspx?playerId=380502329" title="Matías Gastón Loffredo" class="homeplayer">Matías Gastón Loffredo</a> brucia in velocità il suo marcatore e serve un'occasione d'oro a <a href="/Club/Players/Player.aspx?playerId=391543191" title="Nicola Pandini" class="homeplayer">Nicola Pandini</a> che però deve fare i conti con il duro legno del palo.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl10_lblMatchEvent" class="matchevent homeevent" data-eventtype="216_2" data-match-minute="31" data-eventindex="12">Siamo al 31°, <a href="/Club/Players/Player.aspx?playerId=376897606" title="Evgeny Toykka" class="homeplayer">Evgeny Toykka</a> fugge a tutta birra sfruttando un fallo laterale battuto con grande rapidità. La difesa avversaria è rimasta sbilanciata in avanti. <a href="/Club/Players/Player.aspx?playerId=380502329" title="Matías Gastón Loffredo" class="homeplayer">Matías Gastón Loffredo</a> si propone sulla linea del fuorigioco per sfruttare la superiorità numerica, riceve e batte di prima intenzione dal limite dell'area... Che tiraccio, un esterno destro da dimenticare che si perde vicino alla bandierina del corner.</span>
+home EXIT: 390743517. ENTER: 377939149
+home EXIT: 377259130. ENTER: 381152781
+HOME EXIT: 391543191. ENTER: 383741208
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047559&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Martiri Oscuri FC-MAGICO EMPOLI!">Martiri Oscuri FC&nbsp;-&nbsp;MAGICO EMPOLI!</a>
+Successfully loaded player info: Player [id=388902202, position=W_R, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=402256524, position=CD, attitude=null, speciality=NOSPEC, home=false]
+Successfully loaded player info: Player [id=399797479, position=CD, attitude=null, speciality=POWERFUL, home=false]
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl22_lblMatchEvent" class="matchevent homeevent" data-eventtype="215_2" data-match-minute="64" data-eventindex="26">Oggi <a href="/Club/Players/Player.aspx?playerId=378806563" title="Federico Amiotti" class="homeplayer">Federico Amiotti</a> sembra proprio una saetta. Al 64° minuto fugge sulla fascia alla velocità della luce, il suo tiro forte e centrale però viene bloccato dal portiere.</span>
+HOME EXIT: 377481564. ENTER: 380594738
+home EXIT: 391445102. ENTER: 386093985
+Match ended, total fragments: 3
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047560&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="MAGICO EMPOLI!-Nuceria">MAGICO EMPOLI!&nbsp;-&nbsp;Nuceria</a>
+Successfully loaded player info: Player [id=391283912, position=FW, attitude=null, speciality=POWERFUL, home=false]
+AWAY EXIT: 391283912. ENTER: 391261980
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl09_lblMatchEvent" class="matchevent homeevent" data-eventtype="219_1" data-match-minute="12" data-eventindex="9">Occasionissima per <span class="hometeam">EMPOLI!</span>, che ha sfiorato il gol al minuto 12 sugli sviluppi di un calcio d'angolo battuto da <a href="/Club/Players/Player.aspx?playerId=395771247" title="Youssef Melhem" class="homeplayer">Youssef Melhem</a>. Protagonista dell'azione <a href="/Club/Players/Player.aspx?playerId=381156907" title="Ben van der Krogt" class="homeplayer">Ben van der Krogt</a>, che è saltato più in alto di tutti e ha colpito di testa. Pallone che ha scheggiato la traversa lasciando il risultato invariato.</span>
+AWAY EXIT: 384097382. ENTER: 387578424
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047561&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Mar Mousa-I Vermotti">Mar Mousa&nbsp;-&nbsp;I Vermotti</a>
+Successfully loaded player info: Player [id=381786333, position=CD, attitude=null, speciality=NOSPEC, home=false]
+AWAY EXIT: 388254078. ENTER: 389225624
+HOME EXIT: 402641228. ENTER: 391627142
+home EXIT: 381845717. ENTER: 381525024
+home EXIT: 391984722. ENTER: 386275979
+home EXIT injured: 391627142
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047562&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="L' Araba fenice-A.C. Sole">L' Araba fenice&nbsp;-&nbsp;A.C. Sole</a>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl11_lblMatchEvent" class="matchevent homeevent" data-eventtype="215_3" data-match-minute="29" data-eventindex="12"><span class="hometeam">fenice</span> sfrutta la velocità di <a href="/Club/Players/Player.aspx?playerId=376897606" title="Evgeny Toykka" class="homeplayer">Evgeny Toykka</a>. Anche stavolta lascia sul posto il suo marcatore con uno scatto bruciante. Bella la conclusione angolata, portiere battuto con palla fuori di un soffio!</span>
+ERROR - injury substitution 2 players. Event: <span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl16_lblMatchEvent" class="matchevent homeevent" data-eventtype="424_4" data-match-minute="37" data-eventindex="18"><a href="/Club/Players/Player.aspx?playerId=377939149" title="Uladzislau Raitchonak" class="homeplayer">Uladzislau Raitchonak</a> si è già riscaldato ed entra in campo al posto di <a href="/Club/Players/Player.aspx?playerId=395511319" title="Stefan Codron" class="homeplayer">Stefan Codron</a>.</span>
+HOME EXIT: 395511319. ENTER: 377939149
+AWAY EXIT: 369063493. ENTER: 363805422
+ERROR - Munged not managed role: Attaccante
+Successfully loaded player info: Player [id=379632669, position=FW, attitude=null, speciality=TECNIC, home=false]
+AWAY EXIT: 383928193. ENTER: 379632669
+away EXIT: 383861294. ENTER: 389028536
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047563&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Montefreddo City-Martiri Oscuri FC">Montefreddo City&nbsp;-&nbsp;Martiri Oscuri FC</a>
+Successfully loaded player info: Player [id=424122220, position=FW, attitude=null, speciality=FAST, home=false]
+away EXIT: 424122220. ENTER: 386476954
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl12_lblMatchEvent" class="matchevent homeevent" data-eventtype="215_3" data-match-minute="19" data-eventindex="12"><span class="hometeam">Monte City</span> sfrutta la velocità di <a href="/Club/Players/Player.aspx?playerId=391065848" title="Enes Correia" class="homeplayer">Enes Correia</a>. Anche stavolta lascia sul posto il suo marcatore con uno scatto bruciante. Bella la conclusione angolata, portiere battuto con palla fuori di un soffio!</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl13_lblMatchEvent" class="matchevent awayevent" data-eventtype="514_5" data-match-minute="32" data-eventindex="14"><span class="awayteam">Martiri</span> dovrà finire la partita a ranghi ridotti dal minuto 32. <a href="/Club/Players/Player.aspx?playerId=404257138" title="Pietro Cisorio" class="awayplayer">Pietro Cisorio</a> ha avuto la brillante idea di rifilare una manata ad un avversario a gioco fermo. L'arbitro è inflessibile. Il cartellino, rosso.</span>
+
+home EXIT: 391028180. ENTER: 384206507
+home EXIT: 390671240. ENTER: 398969586
+ERROR - Munged not managed role: Attaccante
+Successfully loaded player info: Player [id=424423400, position=FW, attitude=null, speciality=HEADER, home=false]
+away EXIT: 386476954. ENTER: 424423400
+AWAY EXIT: 378806563. ENTER: 388902202
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047564&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="I Vermotti-MAGICO EMPOLI!">I Vermotti&nbsp;-&nbsp;MAGICO EMPOLI!</a>
+Successfully loaded player info: Player [id=386101825, position=FW, attitude=null, speciality=TECNIC, home=false]
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl19_lblMatchEvent" class="matchevent awayevent" data-eventtype="216_4" data-match-minute="60" data-eventindex="23"><a href="/Club/Players/Player.aspx?playerId=383602998" title="Florian D?u?" class="awayplayer">Florian D?u?</a> brucia in velocità il suo marcatore e serve un'occasione d'oro a <a href="/Club/Players/Player.aspx?playerId=385425444" title="Eduard Bate" class="awayplayer">Eduard Bate</a> che però deve fare i conti con il duro legno del palo.</span>
+Match ended, total fragments: 2
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047565&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Martiri Oscuri FC-Mar Mousa">Martiri Oscuri FC&nbsp;-&nbsp;Mar Mousa</a>
+Successfully loaded player info: Player [id=438687823, position=CD, attitude=null, speciality=NOSPEC, home=true]
+Successfully loaded player info: Player [id=366800176, position=MID, attitude=null, speciality=HEADER, home=true]
+Successfully loaded player info: Player [id=386477599, position=BW_L, attitude=null, speciality=FAST, home=false]
+Successfully loaded player info: Player [id=389159515, position=FW, attitude=null, speciality=HEADER, home=false]
+home EXIT: 438687823. ENTER: 382706779
+AWAY EXIT: 392970521. ENTER: 394609703
+home EXIT: 366800176. ENTER: 391445102
+away EXIT: 381845717. ENTER: 381525024
+AWAY EXIT: 393236777. ENTER: 402641228
+home EXIT: 382706779. ENTER: 386093985
+Match ended, total fragments: 7
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047566&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Nuceria-L' Araba fenice">Nuceria&nbsp;-&nbsp;L' Araba fenice</a>
+home EXIT: 384097382. ENTER: 386192047
+home EXIT: 399898928. ENTER: 399702976
+away EXIT: 380502329. ENTER: 386888972
+away EXIT: 376897606. ENTER: 381926031
+HOME EXIT: 388321450. ENTER: 387578424
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047567&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="A.C. Sole-Montefreddo City">A.C. Sole&nbsp;-&nbsp;Montefreddo City</a>
+ERROR - Munged not managed role: Attaccante
+Successfully loaded player info: Player [id=379566673, position=FW, attitude=null, speciality=TECNIC, home=true]
+HOME EXIT: 363805422. ENTER: 369063493
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl16_lblMatchEvent" class="matchevent homeevent" data-eventtype="218_3" data-match-minute="67" data-eventindex="18">L'incornata di <a href="/Club/Players/Player.aspx?playerId=383928193" title="Patryk Nestorowicz" class="homeplayer">Patryk Nestorowicz</a>, piazzatosi sul primo palo per sfruttare un calcio d'angolo, coglie in pieno il palo. La successiva deviazione di un giocatore avversario regala un altro corner a <span class="hometeam">The Sun</span>.</span>
+home EXIT: 381329214. ENTER: 379632669
+away EXIT: 384206507. ENTER: 398969586
+away EXIT: 395713357. ENTER: 391118548
+AWAY EXIT: 391364373. ENTER: 391255698
+Successfully loaded player info: Player [id=431885134, position=BW_R, attitude=null, speciality=NOSPEC, home=true]
+home EXIT: 383928193. ENTER: 431885134
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047568&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Mar Mousa-Nuceria">Mar Mousa&nbsp;-&nbsp;Nuceria</a>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl14_lblMatchEvent" class="matchevent awayevent" data-eventtype="239_4" data-match-minute="34" data-eventindex="16">Le numerose finte di <a href="/Club/Players/Player.aspx?playerId=399701316" title="Sean Fredriksen" class="awayplayer">Sean Fredriksen</a> fanno venire un gran mal di testa a <a href="/Club/Players/Player.aspx?playerId=395088475" title="Jacinto Viera" class="homeplayer">Jacinto Viera</a>, che si trova in un batter d'occhio col sedere per terra. Solo l'illusione del gol, però, per i tifosi di <span class="awayteam">Nuceria</span>: la palla gonfia l'esterno della rete.</span>
+HOME EXIT: 381525024. ENTER: 393087672
+home EXIT: 386477599. ENTER: 386544869
+home EXIT: 387378863. ENTER: 402641228
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047569&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="A.C. Sole-Martiri Oscuri FC">A.C. Sole&nbsp;-&nbsp;Martiri Oscuri FC</a>
+Successfully loaded player info: Player [id=432133143, position=FW, attitude=null, speciality=TECNIC, home=true]
+home EXIT: 432133143. ENTER: 379632669
+HOME EXIT: 391144753. ENTER: 386592412
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl23_lblMatchEvent" class="matchevent homeevent" data-eventtype="107_1" data-match-minute="49" data-eventindex="26">Una bomba! Una bomba dai 40 metri che ha sorpreso il portiere avversario e s'è infilata nel sacco! È questo il gol pazzesco che ci ha regalato <a href="/Club/Players/Player.aspx?playerId=386592412" title="Farzam Savadkouhi" class="homeplayer">Farzam Savadkouhi</a> al 49°, lasciando di sasso cronisti e tifosi. Siamo ora 1 a 1.</span>
+HOME EXIT: 369063493. ENTER: 363805422
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl32_lblMatchEvent" class="matchevent homeevent" data-eventtype="219_5" data-match-minute="81" data-eventindex="36"><a href="/Club/Players/Player.aspx?playerId=389064168" title="Nikolay Rusev" class="homeplayer">Nikolay Rusev</a> sembra volare quando, al 81°, si lancia per deviare in rete il corner. Purtroppo per <span class="hometeam">The Sun</span> la sua scelta di tempo questa volta non è perfetta e il pallone sfila sul fondo.</span>
+away EXIT: 377323302. ENTER: 380594738
+away EXIT: 386476954. ENTER: 421122862
+Match ended, total fragments: 7
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047570&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="L' Araba fenice-MAGICO EMPOLI!">L' Araba fenice&nbsp;-&nbsp;MAGICO EMPOLI!</a>
+Successfully loaded player info: Player [id=386371218, position=FW, attitude=null, speciality=FAST, home=true]
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl14_lblMatchEvent" class="matchevent homeevent" data-eventtype="115_1" data-match-minute="22" data-eventindex="14">Gol! È gol al 22° minuto con un destro violento di <a href="/Club/Players/Player.aspx?playerId=386371218" title="Nicolas Tissot" class="homeplayer">Nicolas Tissot</a> dopo un'azione personale! Era abbastanza evidente come <a href="/Club/Players/Player.aspx?playerId=402256524" title="Petrakis Venetidis" class="awayplayer">Petrakis Venetidis</a> faticasse a contenere la velocità dell'avversario, e alla fine questo gap ha portato alla rete che fissa il punteggio sul parziale di 1 a 0.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl22_lblMatchEvent" class="matchevent awayevent" data-eventtype="139_1" data-match-minute="54" data-eventindex="24">Al 54° minuto <a href="/Club/Players/Player.aspx?playerId=386714659" title="Csaba Tuli" class="awayplayer">Csaba Tuli</a> si prende gioco di <a href="/Club/Players/Player.aspx?playerId=390132202" title="Óscar 'Tiago' Alcántara" class="homeplayer">Óscar 'Tiago' Alcántara</a> con un paio dei tanti trucchi nel suo repertorio e va a segnare il gol del 1 a 1.</span>
+home EXIT: 377259130. ENTER: 383741208
+Successfully loaded player info: Player [id=385987136, position=BW_L, attitude=null, speciality=NOSPEC, home=true]
+HOME EXIT: 377939149. ENTER: 385987136
+home EXIT: 386371218. ENTER: 391543191
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047571&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Montefreddo City-I Vermotti">Montefreddo City&nbsp;-&nbsp;I Vermotti</a>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl12_lblMatchEvent" class="matchevent awayevent" data-eventtype="137_2" data-match-minute="36" data-eventindex="13">Sfruttando un perfetto passaggio in profondità <a href="/Club/Players/Player.aspx?playerId=389225624" title="Bence Ardai" class="awayplayer">Bence Ardai</a> ricama uno strabiliante cross in corsa per la testa di <a href="/Club/Players/Player.aspx?playerId=381562711" title="Arie Levkovic" class="awayplayer">Arie Levkovic</a>, che appostato sul vertice dell'area piccola fa sfoggio delle sue famose doti aeree per insaccare il gol del 0 a 2 al minuto 36.</span>
+AWAY EXIT: 380936841. ENTER: 376345221
+AWAY EXIT: 381224988. ENTER: 373443156
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl24_lblMatchEvent" class="matchevent awayevent" data-eventtype="371_5" data-match-minute="71" data-eventindex="27">Quando l'orologio segna 71 minuti, <span class="awayteam">Vermotti</span> si riorganizza per cercare di mantenere il vantaggio. <a href="/Club/Players/Player.aspx?playerId=377701883" title="Juan Cruz Arguello" class="awayplayer">Juan Cruz Arguello</a> lancia un segno d'intesa a <a href="/Club/Players/Player.aspx?playerId=373443156" title="Bülent Eseray" class="awayplayer">Bülent Eseray</a> mentre si scambiano di posizione in campo.</span>
+Match ended, total fragments: 3
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047572&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="I Vermotti-A.C. Sole">I Vermotti&nbsp;-&nbsp;A.C. Sole</a>
+Successfully loaded player info: Player [id=389260353, position=FW, attitude=null, speciality=TECNIC, home=true]
+away EXIT: 432133143. ENTER: 386592412
+AWAY EXIT: 369063493. ENTER: 363805422
+away EXIT: 381329214. ENTER: 431885134
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047573&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="MAGICO EMPOLI!-Mar Mousa">MAGICO EMPOLI!&nbsp;-&nbsp;Mar Mousa</a>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl09_lblMatchEvent" class="matchevent awayevent" data-eventtype="137_4" data-match-minute="15" data-eventindex="9">Che coraggio! <a href="/Club/Players/Player.aspx?playerId=393087672" title="Muharrem Terlan" class="awayplayer">Muharrem Terlan</a> è uno specialista nel gioco aereo ma stavolta <a href="/Club/Players/Player.aspx?playerId=387378863" title="Chukwunonso Feraez" class="awayplayer">Chukwunonso Feraez</a> sembrava volergli staccare la testa con una fucilata invece di un cross. Prontezza di riflessi, testa dura e determinazione per <span class="awayteam">Mousa</span>... 0 a 1!</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl10_lblMatchEvent" class="matchevent homeevent" data-eventtype="289_3" data-match-minute="26" data-eventindex="10">Duello in velocità tra <a href="/Club/Players/Player.aspx?playerId=383602998" title="Florian D?u?" class="homeplayer">Florian D?u?</a> e <a href="/Club/Players/Player.aspx?playerId=386477599" title="Patrik Papaux" class="awayplayer">Patrik Papaux</a> al 26°: il giocatore che attacca per <span class="hometeam">EMPOLI!</span> in un primo momento sembra avere la meglio ma il difensore allunga la falcata e, aiutandosi regolarmente col corpo, recupera palla.</span>
+AWAY EXIT: 391984722. ENTER: 385829224
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl15_lblMatchEvent" class="matchevent homeevent" data-eventtype="512_5" data-match-minute="35" data-eventindex="16">Una brutta scivolata in ritardo costa a <a href="/Club/Players/Player.aspx?playerId=385342207" title="Jesús Villouta" class="homeplayer">Jesús Villouta</a> un secondo cartellino giallo: doccia anticipata per lui.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl18_lblMatchEvent" class="matchevent awayevent" data-eventtype="310_1" data-match-minute="39" data-eventindex="19">Quando il cronometro era al minuto 39 sembrava che stesse per cominciare un attacco di <span class="hometeam">EMPOLI!</span> ma <a href="/Club/Players/Player.aspx?playerId=392970521" title="Sergey Strelnikov" class="awayplayer">Sergey Strelnikov</a> con un rude contrasto ha fermato la ripartenza.</span>
+away EXIT: 388428044. ENTER: 389159515
+away EXIT: 381525024. ENTER: 381845717
+HOME EXIT: 377958436. ENTER: 374403396
+home EXIT: 403172118. ENTER: 385630379
+Match ended, total fragments: 8
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047574&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Martiri Oscuri FC-L' Araba fenice">Martiri Oscuri FC&nbsp;-&nbsp;L' Araba fenice</a>
+Successfully loaded player info: Player [id=386807962, position=W_L, attitude=null, speciality=UNPREDICTABLE, home=false]
+home EXIT: 421122862. ENTER: 404257138
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl15_lblMatchEvent" class="matchevent awayevent" data-eventtype="218_3" data-match-minute="35" data-eventindex="17">L'incornata di <a href="/Club/Players/Player.aspx?playerId=385351827" title="Sarann Tim" class="awayplayer">Sarann Tim</a>, piazzatosi sul primo palo per sfruttare un calcio d'angolo, coglie in pieno il palo. La successiva deviazione di un giocatore avversario regala un altro corner a <span class="awayteam">fenice</span>.</span>
+HOME EXIT: 380594738. ENTER: 386476954
+home EXIT: 394911807. ENTER: 424423400
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047575&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Nuceria-Montefreddo City">Nuceria&nbsp;-&nbsp;Montefreddo City</a>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl07_lblMatchEvent" class="matchevent awayevent" data-eventtype="136_4" data-match-minute="10" data-eventindex="7">E arriva la rete del 0 - 1! Il marcatore è <a href="/Club/Players/Player.aspx?playerId=395713357" title="Berxwedan Dilshad" class="awayplayer">Berxwedan Dilshad</a>, ma tutto è nato da un passaggio avventato di <a href="/Club/Players/Player.aspx?playerId=386192047" title="Paolino Zapponi" class="homeplayer">Paolino Zapponi</a>, che ha cercato un compagno per vie orizzontali sulla trequarti difensiva: passaggio troppo debole intercettato da <a href="/Club/Players/Player.aspx?playerId=395713357" title="Berxwedan Dilshad" class="awayplayer">Berxwedan Dilshad</a>, che si è involato verso la porta e ha superato il portiere. E adesso chi potrà smentire quanti sostenevano che <a href="/Club/Players/Player.aspx?playerId=386192047" title="Paolino Zapponi" class="homeplayer">Paolino Zapponi</a> fosse troppo poco scafato per scendere in campo in partite così importanti?</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl10_lblMatchEvent" class="matchevent homeevent" data-eventtype="215_5" data-match-minute="17" data-eventindex="10">Al 17° <a href="/Club/Players/Player.aspx?playerId=394644458" title="John Skjæveland" class="homeplayer">John Skjæveland</a> si libera in velocità della difesa ma non riesce a concludere a rete.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl11_lblMatchEvent" class="matchevent homeevent" data-eventtype="116_3" data-match-minute="21" data-eventindex="11">Ed è gol! Ed è gol!!! <a href="/Club/Players/Player.aspx?playerId=384208313" title="Konstantin Tzankov" class="homeplayer">Konstantin Tzankov</a> stre-pi-to-so!! Uno scatto bruciante, con cui il velocista di <span class="hometeam">Nuceria</span> ha lasciato sul posto gli avversari. Cross basso per il comodo tap-in di <a href="/Club/Players/Player.aspx?playerId=394644458" title="John Skjæveland" class="homeplayer">John Skjæveland</a>. Il parziale è di 2 a 1 al minuto 21.</span>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl18_lblMatchEvent" class="matchevent homeevent" data-eventtype="371_2" data-match-minute="48" data-eventindex="19">Al 48° minuto, <span class="hometeam">Nuceria</span> si sente abbastanza tranquilla da effettuare dei cambi tattici. <a href="/Club/Players/Player.aspx?playerId=399701316" title="Sean Fredriksen" class="homeplayer">Sean Fredriksen</a> e <a href="/Club/Players/Player.aspx?playerId=399898928" title="Vincenzo Cacace" class="homeplayer">Vincenzo Cacace</a> hanno scambiato la loro posizione in campo.</span>
+home EXIT: 399232206. ENTER: 401274809
+HOME EXIT: 391261980. ENTER: 393594869
+home EXIT: 386192047. ENTER: 384097382
+Match ended, total fragments: 6
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047576&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Martiri Oscuri FC-Nuceria">Martiri Oscuri FC&nbsp;-&nbsp;Nuceria</a>
+Successfully loaded player info: Player [id=390952844, position=GK, attitude=null, speciality=NOSPEC, home=false]
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl18_lblMatchEvent" class="matchevent awayevent" data-eventtype="219_2" data-match-minute="54" data-eventindex="20">Che sfortuna per <a href="/Club/Players/Player.aspx?playerId=399232206" title="Guido 'Iron Head' Muolo" class="awayplayer">Guido 'Iron Head' Muolo</a>! La zuccata sul corner calciato da <a href="/Club/Players/Player.aspx?playerId=384208313" title="Konstantin Tzankov" class="awayplayer">Konstantin Tzankov</a> era indirizzata in rete, ma ha sbattuto contro la schiena di un compagno di squadra sulla linea di porta. Dopo 54 giri di lancette il risultato è ancora di 0 a 1.</span>
+HOME EXIT: 366800176. ENTER: 391445102
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl26_lblMatchEvent" class="matchevent homeevent" data-eventtype="208_4" data-match-minute="78" data-eventindex="28">Tutti pensavano che <a href="/Club/Players/Player.aspx?playerId=382706779" title="Ignat Bytsko" class="homeplayer">Ignat Bytsko</a> avrebbe tirato, e invece no! Il suo inatteso velo sbilancia la difesa avversaria; <a href="/Club/Players/Player.aspx?playerId=386476954" title="Farid Srour" class="homeplayer">Farid Srour</a> riceve ma non riesce a controllare: occasione sprecata.</span>
+AWAY EXIT: 390952844. ENTER: 375996317
+away EXIT: 393594869. ENTER: 391261980
+home EXIT: 380594738. ENTER: 377481564
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047577&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="A.C. Sole-MAGICO EMPOLI!">A.C. Sole&nbsp;-&nbsp;MAGICO EMPOLI!</a>
+home EXIT: 431885134. ENTER: 389064168
+Successfully loaded player info: Player [id=435470634, position=GK, attitude=null, speciality=NOSPEC, home=false]
+AWAY EXIT: 388772077. ENTER: 435470634
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl31_lblMatchEvent" class="matchevent homeevent" data-eventtype="514_4" data-match-minute="58" data-eventindex="32">Al 58° <a href="/Club/Players/Player.aspx?playerId=383928193" title="Patryk Nestorowicz" class="homeplayer">Patryk Nestorowicz</a> di <span class="hometeam">The Sun</span> scaraventa a terra un avversario spingendolo da dietro per fermare l'azione di ripartenza. L'arbitro non ha dubbi: cartellino rosso.</span>
+HOME EXIT: 363805422. ENTER: 383709839
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047578&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="L' Araba fenice-I Vermotti">L' Araba fenice&nbsp;-&nbsp;I Vermotti</a>
+Successfully loaded player info: Player [id=384177904, position=W_R, attitude=null, speciality=HEADER, home=true]
+ERROR - injury substitution 2 players. Event: <span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl13_lblMatchEvent" class="matchevent homeevent" data-eventtype="424_4" data-match-minute="13" data-eventindex="15"><a href="/Club/Players/Player.aspx?playerId=391543191" title="Nicola Pandini" class="homeplayer">Nicola Pandini</a> si è già riscaldato ed entra in campo al posto di <a href="/Club/Players/Player.aspx?playerId=386849731" title="Eugenio Lanunziata" class="homeplayer">Eugenio Lanunziata</a>.</span>
+HOME EXIT: 386849731. ENTER: 391543191
+home EXIT: 390743517. ENTER: 383741208
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl26_lblMatchEvent" class="matchevent awayevent" data-eventtype="208_1" data-match-minute="55" data-eventindex="30">Prevedere i movimenti di <a href="/Club/Players/Player.aspx?playerId=377701883" title="Juan Cruz Arguello" class="awayplayer">Juan Cruz Arguello</a> non è certo una cosa da tutti, al 55° lo scoprono anche i difensori avversari, stupiti da un taglio intelligentissimo e incantati da una serie di giochi di prestigio. Il portiere avversario però si butta in uscita ed estirpandogli il pallone dai piedi, ricaccia il coniglio nel cilindro.</span>
+home EXIT: 377939149. ENTER: 385987136
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047581&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Montefreddo City-Mar Mousa">Montefreddo City&nbsp;-&nbsp;Mar Mousa</a>
+Successfully loaded player info: Player [id=381370989, position=GK, attitude=null, speciality=NOSPEC, home=false]
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl10_lblMatchEvent" class="matchevent homeevent" data-eventtype="236_5" data-match-minute="26" data-eventindex="11"><a href="/Club/Players/Player.aspx?playerId=386477599" title="Patrik Papaux" class="awayplayer">Patrik Papaux</a> soffre l'emozione delle prime partite importanti e il portiere è costretto a deviare in angolo il suo lunghissimo retropassaggio per evitare l'autogol.</span>
+AWAY EXIT: 381525024. ENTER: 381845717
+away EXIT: 386477599. ENTER: 395088475
+away EXIT: 391627142. ENTER: 385829224
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047579&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="I Vermotti-Martiri Oscuri FC">I Vermotti&nbsp;-&nbsp;Martiri Oscuri FC</a>
+Successfully loaded player info: Player [id=409300683, position=GK, attitude=null, speciality=UNPREDICTABLE, home=true]
+Successfully loaded player info: Player [id=404785549, position=CD, attitude=null, speciality=POWERFUL, home=false]
+home EXIT: 409300683. ENTER: 391323104
+AWAY EXIT: 366800176. ENTER: 383553758
+away EXIT: 374691304. ENTER: 377323302
+away EXIT: 383553758. ENTER: 386476954
+Match ended, total fragments: 4
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047580&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Nuceria-A.C. Sole">Nuceria&nbsp;-&nbsp;A.C. Sole</a>
+Successfully loaded player info: Player [id=386424503, position=CD, attitude=null, speciality=HEADER, home=false]
+Successfully loaded player info: Player [id=391734821, position=FW, attitude=null, speciality=TECNIC, home=false]
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl17_lblMatchEvent" class="matchevent homeevent" data-eventtype="137_2" data-match-minute="21" data-eventindex="17">Sfruttando un perfetto passaggio in profondità <a href="/Club/Players/Player.aspx?playerId=384208313" title="Konstantin Tzankov" class="homeplayer">Konstantin Tzankov</a> ricama uno strabiliante cross in corsa per la testa di <a href="/Club/Players/Player.aspx?playerId=391261980" title="Arnout de Bruijn" class="homeplayer">Arnout de Bruijn</a>, che appostato sul vertice dell'area piccola fa sfoggio delle sue famose doti aeree per insaccare il gol del 1 a 1 al minuto 21.</span>
+home EXIT: 388321450. ENTER: 393594869
+ERROR - injury substitution 2 players. Event: <span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl35_lblMatchEvent" class="matchevent homeevent" data-eventtype="424_4" data-match-minute="64" data-eventindex="36"><a href="/Club/Players/Player.aspx?playerId=375996317" title="Piatrok Ermaniuk" class="homeplayer">Piatrok Ermaniuk</a> si è già riscaldato ed entra in campo al posto di <a href="/Club/Players/Player.aspx?playerId=390952844" title="Aiyetoro Lafia" class="homeplayer">Aiyetoro Lafia</a>.</span>
+HOME EXIT: 390952844. ENTER: 375996317
+Successfully loaded player info: Player [id=428018861, position=BW_R, attitude=null, speciality=FAST, home=false]
+away EXIT: 376274872. ENTER: 428018861
+AWAY EXIT: 383709839. ENTER: 432133143
+Successfully loaded player info: Player [id=433311521, position=FW, attitude=null, speciality=NOSPEC, home=false]
+away EXIT: 386592412. ENTER: 433311521
+Match ended, total fragments: 5
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047582&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="Mar Mousa-L' Araba fenice">Mar Mousa&nbsp;-&nbsp;L' Araba fenice</a>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl17_lblMatchEvent" class="matchevent homeevent" data-eventtype="310_5" data-match-minute="39" data-eventindex="17">Il cronomentro segnava 39, <span class="awayteam">fenice</span> strava costruendo l'azione offensiva ma ha dovuto cedere il controllo della palla per frustrazione. Non c'era modo di superare il roccioso <a href="/Club/Players/Player.aspx?playerId=392970521" title="Sergey Strelnikov" class="homeplayer">Sergey Strelnikov</a>, che si è ancora una volta rivelato il baluardo del centrocampo di <span class="hometeam">Mousa</span>.</span>
+home EXIT: 388428044. ENTER: 393087672
+home EXIT: 381525024. ENTER: 381845717
+HOME EXIT: 389159515. ENTER: 402641228
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl31_lblMatchEvent" class="matchevent homeevent" data-eventtype="310_4" data-match-minute="69" data-eventindex="34">Attorno al minuto 69 di gioco, <a href="/Club/Players/Player.aspx?playerId=392970521" title="Sergey Strelnikov" class="homeplayer">Sergey Strelnikov</a> ha usato il suo fisico impressionante per mantenere il controllo completo del centrocampo. A causa di ciò, l'attacco di <span class="awayteam">fenice</span> si è rivelato un fuoco di paglia. </span>
+Match ended, total fragments: 3
+
+ MATCH: <a href="/Club/Matches/Match.aspx?matchID=628047583&amp;SourceSystem=Hattrick&amp;TeamId=1913092&amp;UpdateViewedReport=False" title="MAGICO EMPOLI!-Montefreddo City">MAGICO EMPOLI!&nbsp;-&nbsp;Montefreddo City</a>
+TODO:<span id="ctl00_ctl00_CPContent_CPMain_ucPostMatch_repMatchReport_ctl30_lblMatchEvent" class="matchevent awayevent" data-eventtype="119_2" data-match-minute="79" data-eventindex="32">Reteee per <span class="awayteam">Monte City</span>! Corner battuto benissimo da <a href="/Club/Players/Player.aspx?playerId=391364373" title="Aliu Kuffour" class="awayplayer">Aliu Kuffour</a>, che ha trovato la testa di <a href="/Club/Players/Player.aspx?playerId=390045663" title="Ali Ammar" class="awayplayer">Ali Ammar</a> in mezzo all'area di rigore. Colpo preciso e 1 a 1.</span>
+Match ended, total fragments: 2

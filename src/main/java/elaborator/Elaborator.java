@@ -27,7 +27,8 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import model.Player;
+import hattrick.HattrickCalculator;
+import model.Player2;
 import model.Role;
 import model.Team;
 import util.Calculator;
@@ -36,128 +37,26 @@ import util.Calculator;
 public class Elaborator {
 
 	public static final int NUM_SQUADRE = 10;
-	public static final int GIORNATE_GIOCATE = 36;
-	public static final int GIORNATE_TOT = 38;
+	public static final int GIORNATE_GIOCATE = 9;
+	public static final int GIORNATE_TOT = 35;
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
 //		indexCalculation();
 //		stats();
 		
-		// Download prediction values
-		URL url = new URL("https://www.windfinder.com/forecast/porto_corsini");
-		BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
-		String line;
+//		wind();
 		
-		List<String> predictWindDirections = new ArrayList<>();
-		List<String> predictWindSpeeds = new ArrayList<>();
-		while ((line = reader.readLine()) != null) {
-			
-			// 5h
-			int h_block_start = line.indexOf("units-wd-dir");
-			if (h_block_start > 0) {
-				line = reader.readLine(); //riga dopo
-				predictWindDirections.add(line.trim());
-			}
-			String to_find = "\"units-ws\">";
-			h_block_start = line.indexOf(to_find);
-			if (h_block_start > 0) {
-				int start = h_block_start + to_find.length();
-				int end = line.indexOf("<", start);
-				predictWindSpeeds.add(line.substring(start, end));
-			}
+		HattrickCalculator ht = new HattrickCalculator();
+		ht.mungeMatches();
+		
 		}
-		reader.close();
-		
-		HashMap<String,String> predictDirectMap = new HashMap<>();
-		predictDirectMap.put("05", predictWindDirections.get(1));
-		predictDirectMap.put("08", predictWindDirections.get(2));
-		predictDirectMap.put("11", predictWindDirections.get(3));
-		predictDirectMap.put("14", predictWindDirections.get(4));
-		predictDirectMap.put("17", predictWindDirections.get(5));
-		predictDirectMap.put("20", predictWindDirections.get(6));
-		predictDirectMap.put("23", predictWindDirections.get(7));
-		HashMap<String,String> predictSpeedMap = new HashMap<>();
-		predictSpeedMap.put("05", predictWindSpeeds.get(3));
-		predictSpeedMap.put("08", predictWindSpeeds.get(5));
-		predictSpeedMap.put("11", predictWindSpeeds.get(7));
-		predictSpeedMap.put("14", predictWindSpeeds.get(9));
-		predictSpeedMap.put("17", predictWindSpeeds.get(11));
-		predictSpeedMap.put("20", predictWindSpeeds.get(13));
-		predictSpeedMap.put("23", predictWindSpeeds.get(15));
-		
-		// Download measured values
-		while (true) {
-			Date d = new Date();
-			DateFormat f = new SimpleDateFormat("yyyy-MM-dd");
-			String date = f.format(d);
-			f = new SimpleDateFormat("HH:mm");
-			String hour = f.format(d);
-			
-			url = new URL("http://www.adriaticowindclub.com/index.php");
-			reader = new BufferedReader(new InputStreamReader(url.openStream()));
-
-			boolean lineNow = false;
-			boolean lineAverage = false;
-			String windSpeed = "";
-			String windSpeedAverage = "";
-			String windDirection = "";
-			while ((line = reader.readLine()) != null) {
-//				 System.out.println(line);
-				
-				lineAverage = line.contains("Media:");
-				
-				if (lineNow) {
-					// Wind speed
-					String strong = "<strong><span class=\"temp\">";
-					int start = line.indexOf(strong) + strong.length();
-					int end = line.indexOf("<", start);
-					windSpeed = line.substring(start, end);
 
 
-					strong = "<strong>";
-					start = line.lastIndexOf(strong) + strong.length();
-					end = line.lastIndexOf(strong.replace("<", "</"));
-					windDirection = line.substring(start, end);
-					
-					lineNow = false;
-				} else if (lineAverage) {
-					// Average speed
-					String strong = "<strong>";
-					int start = line.indexOf(strong) + strong.length();
-					int end = line.indexOf("<", start);
-					windSpeedAverage = line.substring(start, end);
-					
-					break;
-				}
-				
-				if (!lineNow && line.contains("Velocit")) {
-					lineNow = true;
-				}
-			}
-			System.out.println(windSpeed + " " + windSpeedAverage + " " + windDirection);
-			
-			Writer output;
-			output = new BufferedWriter(new FileWriter("porto_corsini.csv", true)); // clears file every time
-			String key = hour.substring(0, 2);
-			output.append(String.join(",", date, hour, windSpeed, windSpeedAverage, windDirection, predictSpeedMap.get(key), predictDirectMap.get(key)));
-			output.write(System.getProperty("line.separator"));
-			output.close();
-			
-			reader.close();
-			TimeUnit.MINUTES.sleep(30);
-			
-			//TODO install on a server
-			//TODO run forever
-			
-			//TODO locatrions: Porto Pollo, Campione del Garda, Santa Croce, 
-		}
-		
-	}
 
 	private static void stats() throws IOException {
 
-		Map<Integer, Player> data = new HashMap<>();
+		Map<Integer, Player2> data = new HashMap<>();
 		
 		for (int i=1; i<=GIORNATE_TOT; i++) {
 			FileInputStream file = new FileInputStream(new File("src/main/resources/rates/Voti_Fantacalcio_Stagione_2017-18_Giornata_" + i + ".xlsx"));
@@ -173,9 +72,9 @@ public class Elaborator {
 					Role role = Role.valueOf(row.getCell(1).getRichStringCellValue().toString());
 					String name = row.getCell(2).getRichStringCellValue().toString();
 					
-					Player p = data.get(id);
+					Player2 p = data.get(id);
 					if (p == null) {
-						p = new Player( id, role, name);
+						p = new Player2( id, role, name);
 					} else if (p.getRole() != role) {
 						System.out.println("WARN ROLE: "+role.toString()+" vs "+p.getRole().toString()+ " for player:"+name);
 					} else if (!p.getName().equals(name)) {
@@ -217,7 +116,7 @@ public class Elaborator {
 			workbook.close();
 		}
 		
-		Player fakePlayer = new Player(99999, Role.A, "FAKE");
+		Player2 fakePlayer = new Player2(99999, Role.A, "FAKE");
 		fakePlayer.getVote().add(0, 6f);
 		fakePlayer.getFantavote().set(0, 6f);
 		fakePlayer.getVote().add(5, 6f);
@@ -228,7 +127,7 @@ public class Elaborator {
 		
 		data.put(fakePlayer.getId(), fakePlayer);
 		
-		for (Map.Entry<Integer, Player> entry : data.entrySet()) {
+		for (Map.Entry<Integer, Player2> entry : data.entrySet()) {
 			
 			Float totContributo = (Calculator.average(entry.getValue().getFantavote()) - 6) 
 									*  Calculator.count(entry.getValue().getFantavote()) ;
@@ -338,4 +237,115 @@ public class Elaborator {
 		
 	}
 
+	private void wind() throws Exception {
+		
+		// Download prediction values
+				URL url = new URL("https://www.windfinder.com/forecast/porto_corsini");
+				BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
+				String line;
+				
+				List<String> predictWindDirections = new ArrayList<>();
+				List<String> predictWindSpeeds = new ArrayList<>();
+				while ((line = reader.readLine()) != null) {
+					
+					// 5h
+					int h_block_start = line.indexOf("units-wd-dir");
+					if (h_block_start > 0) {
+						line = reader.readLine(); //riga dopo
+						predictWindDirections.add(line.trim());
+					}
+					String to_find = "\"units-ws\">";
+					h_block_start = line.indexOf(to_find);
+					if (h_block_start > 0) {
+						int start = h_block_start + to_find.length();
+						int end = line.indexOf("<", start);
+						predictWindSpeeds.add(line.substring(start, end));
+					}
+				}
+				reader.close();
+				
+				HashMap<String,String> predictDirectMap = new HashMap<>();
+				predictDirectMap.put("05", predictWindDirections.get(1));
+				predictDirectMap.put("08", predictWindDirections.get(2));
+				predictDirectMap.put("11", predictWindDirections.get(3));
+				predictDirectMap.put("14", predictWindDirections.get(4));
+				predictDirectMap.put("17", predictWindDirections.get(5));
+				predictDirectMap.put("20", predictWindDirections.get(6));
+				predictDirectMap.put("23", predictWindDirections.get(7));
+				HashMap<String,String> predictSpeedMap = new HashMap<>();
+				predictSpeedMap.put("05", predictWindSpeeds.get(3));
+				predictSpeedMap.put("08", predictWindSpeeds.get(5));
+				predictSpeedMap.put("11", predictWindSpeeds.get(7));
+				predictSpeedMap.put("14", predictWindSpeeds.get(9));
+				predictSpeedMap.put("17", predictWindSpeeds.get(11));
+				predictSpeedMap.put("20", predictWindSpeeds.get(13));
+				predictSpeedMap.put("23", predictWindSpeeds.get(15));
+				
+				// Download measured values
+				while (true) {
+					Date d = new Date();
+					DateFormat f = new SimpleDateFormat("yyyy-MM-dd");
+					String date = f.format(d);
+					f = new SimpleDateFormat("HH:mm");
+					String hour = f.format(d);
+					
+					url = new URL("http://www.adriaticowindclub.com/index.php");
+					reader = new BufferedReader(new InputStreamReader(url.openStream()));
+
+					boolean lineNow = false;
+					boolean lineAverage = false;
+					String windSpeed = "";
+					String windSpeedAverage = "";
+					String windDirection = "";
+					while ((line = reader.readLine()) != null) {
+//						 System.out.println(line);
+						
+						lineAverage = line.contains("Media:");
+						
+						if (lineNow) {
+							// Wind speed
+							String strong = "<strong><span class=\"temp\">";
+							int start = line.indexOf(strong) + strong.length();
+							int end = line.indexOf("<", start);
+							windSpeed = line.substring(start, end);
+
+
+							strong = "<strong>";
+							start = line.lastIndexOf(strong) + strong.length();
+							end = line.lastIndexOf(strong.replace("<", "</"));
+							windDirection = line.substring(start, end);
+							
+							lineNow = false;
+						} else if (lineAverage) {
+							// Average speed
+							String strong = "<strong>";
+							int start = line.indexOf(strong) + strong.length();
+							int end = line.indexOf("<", start);
+							windSpeedAverage = line.substring(start, end);
+							
+							break;
+						}
+						
+						if (!lineNow && line.contains("Velocit")) {
+							lineNow = true;
+						}
+					}
+					System.out.println(windSpeed + " " + windSpeedAverage + " " + windDirection);
+					
+					Writer output;
+					output = new BufferedWriter(new FileWriter("porto_corsini.csv", true)); // clears file every time
+					String key = hour.substring(0, 2);
+					output.append(String.join(",", date, hour, windSpeed, windSpeedAverage, windDirection, predictSpeedMap.get(key), predictDirectMap.get(key)));
+					output.write(System.getProperty("line.separator"));
+					output.close();
+					
+					reader.close();
+					TimeUnit.MINUTES.sleep(30);
+					
+					//TODO install on a server
+					//TODO run forever
+					
+					//TODO locatrions: Porto Pollo, Campione del Garda, Santa Croce, 
+				}
+	};
 }

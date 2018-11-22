@@ -3,7 +3,7 @@ package model;
 import java.util.List;
 import java.util.Vector;
 
-public class Player {
+public class Player2 {
 
 	private Integer id; 
 	private Role role;
@@ -25,7 +25,7 @@ public class Player {
 	private List<Float> fantavote;
 
 	@SuppressWarnings("serial")
-	public Player(Integer id, Role role, String name) {
+	public Player2(Integer id, Role role, String name) {
 		super();
 		this.id = id;
 		this.role = role;
