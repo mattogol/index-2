@@ -11,10 +11,13 @@ public class MatchFragment {
 	private List<Player> home;
 	private List<Player> away;
 	
+	private List<Event> specialEvents;
+	
 	public MatchFragment(int start) {
 		this.startingMinute = start;
 		home = new ArrayList<>();
 		away = new ArrayList<>();
+		specialEvents = new ArrayList<>();
 	}
 
 	public int getStartingMinute() {
@@ -50,21 +53,12 @@ public class MatchFragment {
 		// one is a home player in field
 		if (this.home.stream().map(p -> p.getId()).filter(id -> id.equals(one.getId())).findAny().isPresent()) {
 			substitution(home, one.getId(), two);
-			if(two!=null)
-				System.out.println("home EXIT: " + one.getId() + ". ENTER: "+ two.getId());
-			else
-				System.out.println("home EXIT injured: " + one.getId());
 			return;
 		} 
 		
 		// one is a away player in field
 		else if (this.away.stream().map(p -> p.getId()).filter(id -> id.equals(one.getId())).findAny().isPresent()) {
 			substitution(away, one.getId(), two);
-			
-			if(two!=null)
-				System.out.println("away EXIT: " + one.getId() + ". ENTER: "+ two.getId());
-			else
-				System.out.println("away EXIT injured: " + one.getId());
 			return;
 		}
 		
@@ -72,14 +66,12 @@ public class MatchFragment {
 			// two is a home player in field
 			if (this.home.stream().map(p -> p.getId()).filter(id -> id.equals(two.getId())).findAny().isPresent()) {
 				substitution(home, two.getId(), one);
-				System.out.println("HOME EXIT: " + two.getId() + ". ENTER: "+ one.getId());
 				return;
 			} 
 			
 			// two is a away player in field
 			else if (this.away.stream().map(p -> p.getId()).filter(id -> id.equals(two.getId())).findAny().isPresent()) {
 				substitution(away, two.getId(), one);
-				System.out.println("AWAY EXIT: " + two.getId() + ". ENTER: "+ one.getId());
 				return;
 			}
 		}
@@ -102,4 +94,52 @@ public class MatchFragment {
 		
 		substitution(player, null);
 	}
+	
+	public void addSE(Event event) {
+		this.specialEvents.add(event);
+	}
+	
+	public void swapPositions(Player p1, Player p2) {
+
+		Position temp = p1.getPosition();
+		p1.setPosition(p2.getPosition());
+		p2.setPosition(temp);
+		
+		// home
+		if (home.stream().map(p -> p.getId()).filter(i -> i.equals(p1.getId())).findFirst().isPresent()) {
+			int index1 = -1;
+			int index2 = -1;
+			for (int i=0;i<home.size();i++) {
+				if(home.get(i).getId().equals(p1.getId())) {
+					index1 = i;
+				}	
+				if(home.get(i).getId().equals(p2.getId())) {
+					index2 = i;
+				}	
+			}
+			home.set(index1, p1);
+			home.set(index2, p2);
+		}
+
+		// away
+		if (away.stream().map(p -> p.getId()).filter(i -> i.equals(p1.getId())).findFirst().isPresent()) {
+			int index1 = -1;
+			int index2 = -1;
+			for (int i=0;i<away.size();i++) {
+				if(away.get(i).getId().equals(p1.getId())) {
+					index1 = i;
+				}	
+				if(away.get(i).getId().equals(p2.getId())) {
+					index2 = i;
+				}	
+			}
+			away.set(index1, p1);
+			away.set(index2, p2);
+		}
+	}
+
+	public List<Event> getSpecialEvents() {
+		return specialEvents;
+	}
+	
 }

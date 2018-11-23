@@ -49,4 +49,8 @@ public class Player {
 				+ ", home=" + home + "]";
 	}
 
+	public void setPosition(Position p) {
+		this.position = p;
+	}
+
 }

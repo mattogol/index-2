@@ -49,6 +49,7 @@ public class Elaborator {
 		
 		HattrickCalculator ht = new HattrickCalculator();
 		ht.mungeMatches();
+		ht.elaborateData();
 		
 		}
 
