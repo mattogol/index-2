@@ -37,19 +37,19 @@ import util.Calculator;
 public class Elaborator {
 
 	public static final int NUM_SQUADRE = 10;
-	public static final int GIORNATE_GIOCATE = 9;
+	public static final int GIORNATE_GIOCATE = 10;
 	public static final int GIORNATE_TOT = 35;
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-//		indexCalculation();
+		indexCalculation();
 //		stats();
 		
 //		wind();
 		
-		HattrickCalculator ht = new HattrickCalculator();
-		ht.mungeMatches();
-		ht.elaborateData();
+//		HattrickCalculator ht = new HattrickCalculator();
+//		ht.mungeMatches();
+//		ht.elaborateData();
 		
 		}
 
@@ -159,7 +159,7 @@ public class Elaborator {
 		
 		/** nomi squadra 
 		 * 															  |  0     |    1      |     2      |    3        |    4     |   5     |  6     |  7     |  8     |   9       |  */
-		ArrayList<String> nomi = new ArrayList<String>(Arrays.asList("granchi","depcan","libertas","rispetto","stella","ureri","culi","orga","fiat","bonanza"));
+		ArrayList<String> nomi = new ArrayList<String>(Arrays.asList("granchi", "depcan",   "libertas",  "rispetto",   "stella",   "ureri",  "culi",  "orga",  "fiat",  "bonanza"));
 		
 		/** HM delle squadre */
 		ArrayList<Team> teams = new ArrayList<Team>();
