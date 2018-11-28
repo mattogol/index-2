@@ -42,14 +42,14 @@ public class Elaborator {
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-		indexCalculation();
+//		indexCalculation();
 //		stats();
 		
 //		wind();
 		
-//		HattrickCalculator ht = new HattrickCalculator();
-//		ht.mungeMatches();
-//		ht.elaborateData();
+		HattrickCalculator ht = new HattrickCalculator();
+		ht.mungeMatches();
+		ht.elaborateData();
 		
 		}
 

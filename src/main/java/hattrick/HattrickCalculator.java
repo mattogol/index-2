@@ -8,7 +8,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -18,8 +17,9 @@ import org.jsoup.select.Selector.SelectorParseException;
 
 public class HattrickCalculator {
 
-	public static final String hattrickCookie = "C68A932491BB43474306947475006361EDD1371A2C587BD977B2D091B588CEC5682C99BE622DA44D5961270CB1C11C75EB998B4473BC0EA70091F7E83DE9A9E720730D07DBE3E49C97011BBF4C884286475EF6408AEB0E35DB20F0ABC3D64CDBA3F5DA2B39455BB900CBFA782FD62FD76FEB3386";
+	public static final String hattrickCookie = "B79D0110E2DA2B22A8FA1C63A11976DCA43645D56293D6031501187FF5D03C6421E42FF6E3F5CA203A6FA1A6232837C487DF594D5485821CEDC4D38D389C6EF0B6A1809537DE161414BF170F9878591324909E915F3EC52E721243582FC78269CBECF74807123B9CF4D1F2CE3ED2C14A0C5B9EF0";
 	public static final String hattrickLoginUrl = "https://www.hattrick.org";
+	public List<String> pastPlayers = new ArrayList<>();
 	public Map<String,Player> playersMap = new HashMap<String,Player>();
 	private HashMap<String, Map<String,Position>> positionsArchive = new HashMap<String, Map<String,Position>>(); // <playerId<'dd-MM-yyyy',Position>>
 	private HashMap<Integer,Player> injured = new HashMap<Integer,Player>(); // map event-id, player injured. nulled at the end of each match
@@ -30,7 +30,7 @@ public class HattrickCalculator {
 		try{
 			int leagueId=724; //serieA
 			
-			for (leagueId=724;leagueId<=744;leagueId++) {
+			for (leagueId=724;leagueId<=744-20;leagueId++) {
 				Document calendar = 
 	    				Jsoup.connect(hattrickLoginUrl + "/World/Series/Fixtures.aspx?LeagueLevelUnitID="+leagueId+"&Season=69&TeamId=-1")
 	    				.cookie("hattrick.org", hattrickCookie)
@@ -40,12 +40,19 @@ public class HattrickCalculator {
 	    		Elements calendar_links = calendar.select("a[href^='/Club/Matches/Match.']"); // get match links
 	
 	    		int match_counter = 0;
+	    		match:
 	            for (Element link : calendar_links) {
 	            	match_counter++;
 	            	System.out.println("\n SERIE "+leagueId+" MATCH " + match_counter+ ": " + link.outerHtml());
 	            	Document match = Jsoup.connect(hattrickLoginUrl + link.attr("href"))
 	            			.cookie("hattrick.org", hattrickCookie)
 	            			.get();
+	            	
+	            	if (thereIsABot(match)) {
+	            		System.out.println("\n Skipping match because of the presence of bots");
+	            		continue match;
+	            	}
+	            	
 	//            	System.out.println(match.html());
 	            	String matchDateString = match.select("div[class^='byline']").text();
 	//            	System.out.println("matchDate: " + matchDateString);
@@ -68,10 +75,24 @@ public class HattrickCalculator {
 	            		// Lineups
 	            		if (eventEnum == Event.LINEUPS) {
 	                    	List<Player> players = getPlayersFromEvent(event, matchDate);
+	            			if (players.contains(null)) {
+	            				System.out.println("Skipping match because an old player is present");
+	            				resetMatchStuffs();
+	            				continue match; // old player is present
+	            			}
+
 	                    	for (Player player : players) {
 	                			currentFragment.addPyr(player);
 	                    	}
 	            		} 
+	            		
+	            		// Walkover
+	            		if (   eventEnum == Event.WALKOVER_BOTH
+	        				|| eventEnum == Event.WALKOVER_AWAY
+	        				|| eventEnum == Event.WALKOVER_HOME) {
+	            			
+	            			continue match;
+	            		}
 	            		
 	            		// Injury
 	            		else if (eventEnum!= null && isInjury(eventEnum.getCode())) {
@@ -79,6 +100,12 @@ public class HattrickCalculator {
 	            			//get involved players
 	            			Integer eventId = Integer.valueOf(event.attr("data-eventindex"));
 	            			List<Player> pyrs = getPlayersFromEvent(event, matchDate);
+	            			if (pyrs.contains(null)) {
+	            				System.out.println("Skipping match because an old player is present");
+	            				resetMatchStuffs();
+	            				continue match; // old player is present
+	            			}
+	            			
 	            			if(pyrs.size() != 1) System.out.println("ERROR - injured "+pyrs.size()+" players. Event: " + event.outerHtml());
 	//            			
 	            			injured.put(eventId, pyrs.get(0));
@@ -92,6 +119,11 @@ public class HattrickCalculator {
 	            			//get involved players
 	            			Integer eventId = Integer.valueOf(event.attr("data-eventindex"));
 	            			List<Player> pyrs = getPlayersFromEvent(event, matchDate);
+	            			if (pyrs.contains(null)) {
+	            				System.out.println("Skipping match because an old player is present");
+	            				resetMatchStuffs();
+	            				continue match; // old player is present
+	            			}
 	            			
 	            			if(pyrs.size() == 1) {
 		            			if(injured.get(eventId-1) != null)
@@ -119,6 +151,12 @@ public class HattrickCalculator {
 	            			
 	            			//get involved players
 	            			List<Player> pyrs = getPlayersFromEvent(event, matchDate);
+	            			if (pyrs.contains(null)) {
+	            				System.out.println("Skipping match because an old player is present");
+	            				resetMatchStuffs();
+	            				continue match; // old player is present
+	            			}
+	            			
 	            			if(pyrs.size() != 2) System.out.println("ERROR - substitution with "+pyrs.size()+" players. Event: " + event.outerHtml());
 	            			
 	            			currentFragment.substitution(pyrs.get(0), pyrs.get(1));
@@ -137,7 +175,7 @@ public class HattrickCalculator {
 	            			
 	            			if(injured.get(eventId-1) != null) {
 	            				currentFragment.removeInjured(injured.get(eventId-1));
-	            				System.out.println("INFO - Esce infortunato al minuto "+event.attr("data-match-minute"));
+//	            				System.out.println("INFO - Esce infortunato al minuto "+event.attr("data-match-minute"));
 	            			} else
 	            				System.out.println("ERROR - non found injured to replace: " + event.outerHtml());
 	            		}
@@ -164,7 +202,19 @@ public class HattrickCalculator {
 	            			
 	            			currentFragment = getCurrentFragment(event, fragments, currentFragment);
 	            			
-	            			System.out.println("TODO:" + event.outerHtml() );
+	            			Integer eventId = Integer.valueOf(event.attr("data-eventindex"));
+	            			
+	            			if(injured.get(eventId-1) != null) {
+	            				currentFragment.removeInjured(injured.get(eventId-1));
+	            				System.out.println("INFO - Esce GK infortunato al minuto "+event.attr("data-match-minute"));
+	            				List<Player> list = getPlayersFromEvent(event, matchDate);
+	            				if (list.size() > 2) System.out.println("ERROR - GK replacement must involve only 2 players: "+ event.outerHtml());
+	            				for (Player p : list) {
+	            					if (p.getPosition() != Position.GK)
+	            						currentFragment.updateRole(p.getId(), Position.GK);
+	            				}
+	            			} else
+	            				System.out.println("ERROR - non found injured to replace: " + event.outerHtml());
 	            		}
 	            		
 	            		// Swap position
@@ -180,7 +230,7 @@ public class HattrickCalculator {
 	            			
 	            			currentFragment.swapPositions(list.get(0), list.get(1));
 	            			
-	            			System.out.println("INFO - Scambio posizioni al minuto "+event.attr("data-match-minute"));
+//	            			System.out.println("INFO - Scambio posizioni al minuto "+event.attr("data-match-minute"));
 	            		}
 	            		
 	            		// SE HEAD
@@ -205,7 +255,7 @@ public class HattrickCalculator {
 	            				) {
 	            			
 							List<Player> list = getPlayersFromEvent(event, matchDate);
-							if(!list.stream().map(p->p.getSpeciality()).filter(s->s==Speciality.UNPREDICTABLE).findFirst().isPresent()) System.out.println("ERROR SE QUICK - no QUICK player among "+list+". Event: " + event.outerHtml());
+							if(!list.stream().map(p->p.getSpeciality()).filter(s->s==Speciality.FAST).findFirst().isPresent()) System.out.println("ERROR SE QUICK - no QUICK player among "+list+". Event: " + event.outerHtml());
 							currentFragment.addSE(eventEnum);
 	            		}
 						
@@ -292,6 +342,7 @@ public class HattrickCalculator {
 	            				) {
 	            			
 	            			List<Player> list = getPlayersFromEvent(event, matchDate);
+	            			
 	            			if(list.size() < 2) System.out.println("ERROR SE NOSP WING - Less than 2 players in SE. Event: " + event.outerHtml());
 	            			if(!list.stream().map(p->p.getPosition()).filter(p -> p==Position.W_R || p==Position.W_L ).findFirst().isPresent()) System.out.println("ERROR SE NOSP WING - player "+list.get(0)+" is not a WINGER. Event: " + event.outerHtml());
 	            			
@@ -316,9 +367,6 @@ public class HattrickCalculator {
 	            		
 	            		// End Match
 	            		else if (  eventEnum == Event.MATCH_END 
-	            				|| eventEnum == Event.WALKOVER_BOTH
-	            				|| eventEnum == Event.WALKOVER_AWAY
-	            				|| eventEnum == Event.WALKOVER_HOME
 	            				|| eventEnum == Event.BREAK_GAME_BOTH
 	            				|| eventEnum == Event.BREAK_GAME_AWAY
 	            				|| eventEnum == Event.BREAK_GAME_HOME) {
@@ -333,7 +381,7 @@ public class HattrickCalculator {
 	//            				System.out.println("NOT MANAGED EVENT: "+event.outerHtml());
 	            		}
 	            	}
-	            	injured = new HashMap<Integer,Player>();;
+    				resetMatchStuffs();
 	            }
 			}
             	
@@ -343,6 +391,33 @@ public class HattrickCalculator {
 
 	}
 	
+	private boolean thereIsABot(Document match) throws IOException {
+		
+		// home
+		Element homeTeam = match.select("a[class^='hometeam notByLine']").first();
+		Document teamPage = Jsoup.connect(hattrickLoginUrl + homeTeam.attr("href"))
+				.cookie("hattrick.org", hattrickCookie)
+				.get();
+		Elements bot = teamPage.select("div[id$='BotAlert']");
+		if (bot.size() > 0)
+			return true;
+		
+		// away
+		Element awayTeam = match.select("a[class^='awayteam notByLine']").first();
+		teamPage = Jsoup.connect(hattrickLoginUrl + awayTeam.attr("href"))
+				.cookie("hattrick.org", hattrickCookie)
+				.get();
+		bot = teamPage.select("div[id$='BotAlert']");
+		if (bot.size() > 0)
+			return true;
+		
+		return false;
+	}
+
+	private void resetMatchStuffs() {
+    	injured = new HashMap<Integer,Player>();
+	}
+
 	public void elaborateData() {
 		// SE: snapshot rose ---> return List SE possibili, SE avvenuto
 		List<HashMap<Speciality,Integer>> snapshots = new ArrayList<>();
@@ -359,12 +434,103 @@ public class HattrickCalculator {
 					for (Player pyr : fragment.getAway()) {
 						snapshot.compute(pyr.getSpeciality(), (tokenKey, oldValue) -> oldValue == null ? 1 : oldValue + 1);
 					}
-					System.out.println("Event: "+se+". Snapshot:"+snapshot);
+					
+					String output = String.join("|", 
+							se.toString(), 
+							snapshot.get(Speciality.NOSPEC) != null ? snapshot.get(Speciality.NOSPEC).toString() : "",
+							snapshot.get(Speciality.HEADER) != null ? snapshot.get(Speciality.HEADER).toString() : "",
+							snapshot.get(Speciality.FAST) != null ? snapshot.get(Speciality.FAST).toString() : "",
+							snapshot.get(Speciality.UNPREDICTABLE) != null ? snapshot.get(Speciality.UNPREDICTABLE).toString() : "",
+							snapshot.get(Speciality.TECNIC) != null ? snapshot.get(Speciality.TECNIC).toString() : "",
+							snapshot.get(Speciality.POWERFUL) != null ? snapshot.get(Speciality.POWERFUL).toString() : "",
+							snapshot.get(Speciality.SUPPORT) != null ? snapshot.get(Speciality.SUPPORT).toString() : "",
+							snapshot.get(Speciality.FAST_HEALING) != null ? snapshot.get(Speciality.FAST_HEALING).toString() : "");
+					
+//					System.out.println(output);
+					
+					// per ogni snapshot creo una lista: SE (possibile), % calcolato lineare, % reale (0% per tutti eccetto l'estratto)
+					List<Event> possibleSE = new ArrayList<>();
+					// nospec
+					possibleSE.add(Event.SE_NOSPEC_CORNER);
+					possibleSE.add(Event.SE_NOSPEC_EXP_FORWARD);
+					possibleSE.add(Event.SE_NOSPEC_INEXP_DEFENDER);
+					possibleSE.add(Event.SE_NOSPEC_LONG_SHOT);
+					possibleSE.add(Event.SE_NOSPEC_TIRED_DEFENDER);
+					
+					// winger
+					boolean hasHomeWingers = fragment.getHome().stream().filter(p -> (p.getPosition() == Position.W_L ) || (p.getPosition() == Position.W_R)).findAny().isPresent();
+					boolean hasAwayWingers = fragment.getAway().stream().filter(p -> (p.getPosition() == Position.W_L ) || (p.getPosition() == Position.W_R)).findAny().isPresent();
+					if (hasHomeWingers || hasAwayWingers) {
+						possibleSE.add(Event.SE_NOSPEC_FROM_WINGER);
+					}
+					// winger + head
+					boolean hasHomeHead = fragment.getHome().stream().filter(p -> p.getSpeciality() == Speciality.HEADER ).findAny().isPresent();
+					boolean hasAwayHead = fragment.getAway().stream().filter(p -> p.getSpeciality() == Speciality.HEADER ).findAny().isPresent();
+					if ( (hasHomeWingers && hasHomeHead) || (hasAwayWingers && hasAwayHead) ) {
+						possibleSE.add(Event.SE_HEAD_FROM_WINGER);
+					}
+					
+					// quick
+					if (snapshot.get(Speciality.FAST) != null) {
+						possibleSE.add(Event.SE_QUICK_PASS);
+						possibleSE.add(Event.SE_QUICK_SCORES);
+					}
+
+//					possibleSE.add(Event.SE_QUICK_VS_QUICK); // TODO gestire
+					
+					// unpredict
+					if (snapshot.get(Speciality.UNPREDICTABLE) != null) {
+						possibleSE.add(Event.SE_UNPR_LONG_PASS);
+						possibleSE.add(Event.SE_UNPR_MISTAKE);
+						possibleSE.add(Event.SE_UNPR_OWNGOAL);
+						possibleSE.add(Event.SE_UNPR_SCORES);
+						possibleSE.add(Event.SE_UNPR_SPECIAL_ACTION);
+					}
+					
+					// techinc
+					if (snapshot.get(Speciality.TECNIC) != null) {
+						if(possibleTecVsHead(fragment.getHome(), fragment.getAway())) {
+							possibleSE.add(Event.SE_TECN_VS_HEAD);
+						}
+					}
+					// head
+					if (snapshot.get(Speciality.HEADER) != null) {
+						possibleSE.add(Event.SE_HEAD_CORNER);
+					}
+					// support
+					if (snapshot.get(Speciality.SUPPORT) != null) {
+						possibleSE.add(Event.SE_SUPPORT);
+					}
+					// Alla fine avrò un elenco di SE, con % reale di estrazione (maggiore è lo scostamento dalla media più sarà chiaro che la % iniziale non è lineare)
+					
+					for (Event e : possibleSE) { //FIXME
+						String prob = Double.valueOf(1/possibleSE.size()).toString();
+						if (e.toString()==se.toString()) {
+							output = String.join("|", e.toString(), prob, prob);
+						} else {
+							output = String.join("|", e.toString(), String.valueOf("0"), prob);
+						}
+						System.out.println(output);
+					}
 				}
 			}
 		}
+		
 	}
 	
+	private boolean possibleTecVsHead(List<Player> home, List<Player> away) { 
+
+		if (home.stream().filter(p -> p.getSpeciality()==Speciality.FAST && p.hasOffensiveRole()).findAny().isPresent()) {
+			if (away.stream().filter(p -> p.getSpeciality()==Speciality.HEADER && p.hasDefensiveRole()).findAny().isPresent())
+				return true;
+		}
+		if (away.stream().filter(p -> p.getSpeciality()==Speciality.FAST && p.hasOffensiveRole()).findAny().isPresent()) {
+			if (home.stream().filter(p -> p.getSpeciality()==Speciality.HEADER && p.hasDefensiveRole()).findAny().isPresent())
+				return true;
+		}
+		return false;
+	}
+
 	private boolean isInjury(String event) {
 		Integer code = Integer.valueOf(event);
 		return code >= 401 && code <= 423;
@@ -391,64 +557,73 @@ public class HattrickCalculator {
 				System.out.println("ERROR: isHome="+isHome+" isAway="+isAway);
 		}
 		
-		
-		if (playersMap.get(id) != null) {
-			if (positionsArchive.get(id).get(ddMMyyyy) == null)
-				System.out.println("ERRORE 1: Non trovata partita "+ddMMyyyy+" per giocatore " +id);
-			return new Player(id, positionsArchive.get(id).get(ddMMyyyy), playersMap.get(id).getSpeciality(), isHome);
+		if (pastPlayers.contains(id)) {
+			// giocatore licenziato o vecchia gloria. Impossibile recuperare le info.
+			System.out.println("INFO - Needing infos for Player "+id+" which is a past player.");
+			return null;
 		} else {
-			
-			// special
-			Document playerPage = Jsoup.connect(hattrickLoginUrl + player.attr("href"))
-					.cookie("hattrick.org", hattrickCookie)
-					.get();
-			String spec = null;
-			try {
-				spec = playerPage.select("i[class^='icon-speciality']").attr("title");
-			} catch (SelectorParseException e) {}
-			
-			// roles
-			String link_player = player.attr("href").replace("Player.aspx","PlayerStats.aspx") + "&activeTab=1&ShowAll=True";
-			playerPage = Jsoup.connect(hattrickLoginUrl + link_player)
-	    			.cookie("hattrick.org", hattrickCookie)
-	    			.get();
-			String html = playerPage.html();
-			Map<String,Position> map = new HashMap<>();
-			// cycle rows
-			for(Element el : playerPage.select("tr[id$='_tableRow']")) {
-				String date = null;
-				for (Element span : el.select("span")) {
-					if (span.attr("data-dateiso") != null && !span.attr("data-dateiso").isEmpty()) {
-						date = span.attr("data-dateiso");
-					} else if (span.id().endsWith("Position")) {
-//						int indexData = html.indexOf(date);
-//						int indexSpan1 = html.indexOf("span ", indexData);
-//						int indexSpan2 = html.indexOf("span ", indexSpan1 + 5);
-//						int indexEndTag = html.indexOf(">", indexSpan2 + 5);
-//						int indexSpace = html.indexOf(" ", indexEndTag);
-//						String role = html.substring(indexEndTag+1, indexSpace);
-	//					System.out.println("PROVA PROVA PROVA: Pyr "+id+" trovata data e ruolo (potrebbe anche essere vuoto) ---> " + date + ", "+ role);
-						
-						String role = span.html().split(" ")[0];
-						if (!role.contains("(0')")) {
-							Position position = getRoleFromMunge(role);
-							if (position!= null)
-								map.put(date, position);
+			if (playersMap.get(id) != null) {
+				if (positionsArchive.get(id).get(ddMMyyyy) == null)
+					System.out.println("ERRORE 1: Non trovata partita "+ddMMyyyy+" per giocatore " +id);
+				return new Player(id, positionsArchive.get(id).get(ddMMyyyy), playersMap.get(id).getSpeciality(), isHome);
+			} else {
+				
+				// player page
+				Document playerPage = Jsoup.connect(hattrickLoginUrl + player.attr("href"))
+						.cookie("hattrick.org", hattrickCookie)
+						.get();
+
+				// active?
+				String message = playerPage.select("div[id*='Notifications']").html();
+				boolean vecchiaGloria = playerPage.select("head").html().contains("Vecchie Glorie");
+				if (!message.isEmpty() || vecchiaGloria) {
+					pastPlayers.add(id);
+					System.out.println("INFO - Player "+id+" added to past players. Vecchia Gloria: "+ vecchiaGloria);
+					return null;
+				}
+				
+				// special
+				String spec = null;
+				try {
+					spec = playerPage.select("i[class^='icon-speciality']").attr("title");
+				} catch (SelectorParseException e) {}
+				
+				
+				// roles
+				String link_player = player.attr("href").replace("Player.aspx","PlayerStats.aspx") + "&activeTab=1&ShowAll=True";
+				playerPage = Jsoup.connect(hattrickLoginUrl + link_player)
+		    			.cookie("hattrick.org", hattrickCookie)
+		    			.get();
+				String html = playerPage.html();
+				Map<String,Position> map = new HashMap<>();
+				
+				for(Element el : playerPage.select("tr[id$='_tableRow']")) {
+					String date = null;
+					for (Element span : el.select("span")) {
+						if (span.attr("data-dateiso") != null && !span.attr("data-dateiso").isEmpty()) {
+							date = span.attr("data-dateiso");
+						} else if (span.id().endsWith("Position")) {
+							String role = span.html().split(" ")[0];
+							if (!role.contains("(0')")) {
+								Position position = getRoleFromMunge(role);
+								if (position!= null)
+									map.put(date, position);
+							}
 						}
 					}
 				}
-			}
-			
-			// home/away
-			
-			if (map.get(ddMMyyyy) == null)
-				System.out.println("ERRORE 2: Non trovata partita "+ddMMyyyy+" per giocatore " +id);
 				
-			Player pyr = new Player(id,map.get(ddMMyyyy), getSpecialityFromMunge(spec), isHome);
-			playersMap.put(id, pyr);
-			positionsArchive.put(id, map);
-//			System.out.println("Successfully loaded player info: "+ pyr);
-			return pyr;
+				// home/away
+				
+				if (map.get(ddMMyyyy) == null)
+					System.out.println("ERRORE 2: Non parsata da html partita "+ddMMyyyy+" per giocatore " +id);
+					
+				Player pyr = new Player(id,map.get(ddMMyyyy), getSpecialityFromMunge(spec), isHome);
+				playersMap.put(id, pyr);
+				positionsArchive.put(id, map);
+	//			System.out.println("Successfully loaded player info: "+ pyr);
+				return pyr;
+			}
 		}
 	}
 
@@ -505,17 +680,24 @@ public class HattrickCalculator {
 		
 		switch (spec) {
 		case ("Veloce"):
+		case ("Quick"):
 			return Speciality.FAST;
 		case ("Imprevedibile"):
+		case ("Unpredictable"):
 			return Speciality.UNPREDICTABLE;
 		case ("Tecnico"):
+		case ("Technical"):
 			return Speciality.TECNIC;
 		case ("Colpo di testa"):
+		case ("Head"):
 			return Speciality.HEADER;
 		case ("Potente"):
+		case ("Powerful"):
 			return Speciality.POWERFUL;
 		case ("Trascinatore"):
 			return Speciality.SUPPORT;
+		case ("Guarigione Veloce"):
+			return Speciality.FAST_HEALING;
 		default:
 			System.out.println("ERROR - Not managed speciality: "+ spec);
 			return null;
@@ -542,6 +724,7 @@ public class HattrickCalculator {
 			case ("At"):
 				return Position.FW;
 			case ("Difensore"): // Walkover
+			case ("Terzino"): // Walkover
 			case ("Centrocampista"): // Walkover
 			case ("Ala"): // Walkover
 			case ("Portiere"): // Walkover

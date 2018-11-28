@@ -53,4 +53,20 @@ public class Player {
 		this.position = p;
 	}
 
+	public boolean hasOffensiveRole() {
+		return this.position==Position.FW
+				|| this.position==Position.MID
+				|| this.position==Position.W_L
+				|| this.position==Position.W_R
+				;
+	}
+
+	public boolean hasDefensiveRole() {
+		return this.position==Position.CD
+				|| this.position==Position.BW_L
+				|| this.position==Position.BW_R
+				|| this.position==Position.MID
+				;
+	}
+
 }

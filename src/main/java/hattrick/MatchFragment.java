@@ -141,5 +141,25 @@ public class MatchFragment {
 	public List<Event> getSpecialEvents() {
 		return specialEvents;
 	}
+
+	public void updateRole(String playerId, Position newPosition) {
+		
+		//home
+		for (Player p : home) {
+			if(p.getId().equals(playerId)) {
+				p.setPosition(newPosition);
+				return;
+			}	
+		}
+
+		//away
+		for (Player p : away) {
+			if(p.getId().equals(playerId)) {
+				p.setPosition(newPosition);
+				return;
+			}	
+		}
+		
+	}
 	
 }

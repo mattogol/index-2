@@ -8,5 +8,7 @@ public enum Speciality {
 	FAST,
 	LEADER,
 	HEADER, 
-	SUPPORT, NOSPEC;
+	SUPPORT, 
+	FAST_HEALING, 
+	NOSPEC;
 }
